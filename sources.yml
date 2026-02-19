@@ -1,0 +1,83 @@
+# sources.yml
+schema_version: "1.0"
+mcp_name: "Nigeria Law MCP"
+jurisdiction: "NG"
+
+sources:
+  - name: "Laws of the Federation of Nigeria (LFRN)"
+    authority: "Federal Ministry of Justice, Federal Republic of Nigeria"
+    official_portal: "https://lfrn.gov.ng"
+    canonical_identifier: "N/A (Nigerian legislation identified by Act title + year + Cap number in LFN; no standardized URI scheme)"
+    retrieval_method: "HTML_SCRAPE"
+    api_documentation: "N/A (no public API; legislation available as HTML/PDF)"
+    update_frequency: "on_change"
+    last_ingested: "PENDING_FIRST_INGEST"
+    license_or_terms:
+      type: "Government Public Data"
+      url: "https://lfrn.gov.ng"
+      summary: "Nigerian federal legislation is public domain as government publication; the Laws of the Federation of Nigeria is the official compilation of all federal laws"
+    coverage:
+      scope: "All federal Acts of the National Assembly and extant legislation of the Federation of Nigeria, including the Nigeria Data Protection Act (NDPA) 2023, Cybercrimes (Prohibition, Prevention, etc.) Act 2015, Companies and Allied Matters Act (CAMA) 2020, NITDA Act 2007, Federal Competition and Consumer Protection Act 2018, Evidence Act 2011"
+      limitations: "State legislation not included; subsidiary legislation and regulations may lag behind gazette publication; historical Acts repealed or consolidated may be incomplete; the LFRN portal has intermittent availability"
+    languages:
+      - "en"
+
+  - name: "Nigerian Legal Information Institute (NigeriaLII)"
+    authority: "NigeriaLII, African Legal Information Institute (AfricanLII)"
+    official_portal: "https://nigerialii.org"
+    canonical_identifier: "N/A"
+    retrieval_method: "HTML_SCRAPE"
+    api_documentation: "N/A"
+    update_frequency: "on_change"
+    last_ingested: "PENDING_FIRST_INGEST"
+    license_or_terms:
+      type: "Free Access (AfricanLII Terms)"
+      url: "https://nigerialii.org"
+      summary: "Free access to Nigerian legal information; legislation and case law published under AfricanLII open access principles; no restrictions on non-commercial use"
+    coverage:
+      scope: "Federal legislation, superior court decisions from Supreme Court, Court of Appeal, Federal High Court, and National Industrial Court; selected state High Court decisions; subsidiary legislation and regulations"
+      limitations: "Not all court decisions are published; coverage of state legislation varies; may not include the most recent amendments immediately; NigeriaLII is supplementary to official LFRN"
+    languages:
+      - "en"
+
+  - name: "Nigeria Data Protection Commission (NDPC)"
+    authority: "Nigeria Data Protection Commission"
+    official_portal: "https://ndpc.gov.ng"
+    canonical_identifier: "N/A"
+    retrieval_method: "HTML_SCRAPE"
+    api_documentation: "N/A"
+    update_frequency: "on_change"
+    last_ingested: "PENDING_FIRST_INGEST"
+    license_or_terms:
+      type: "Government Public Data"
+      url: "https://ndpc.gov.ng"
+      summary: "NDPC publications including regulations, guidelines, and implementation frameworks are public government documents"
+    coverage:
+      scope: "NDPA 2023 implementing regulations, NDPC guidelines, data protection impact assessment frameworks, registration requirements for data controllers/processors, cross-border transfer adequacy decisions"
+      limitations: "NDPC was established in 2023 and is still building its regulatory framework; some guidelines are in draft form; enforcement decisions are not yet systematically published"
+    languages:
+      - "en"
+
+data_freshness:
+  automated_checks: true
+  check_frequency: "weekly"
+  last_verified: "PENDING_FIRST_INGEST"
+
+# Notes:
+# - Nigeria's data protection landscape matured significantly with the Nigeria Data
+#   Protection Act (NDPA) 2023, which replaced the Nigeria Data Protection Regulation
+#   (NDPR) 2019 that was merely a regulation issued by NITDA
+# - The NDPA 2023 established the Nigeria Data Protection Commission (NDPC) as an
+#   independent regulatory body, replacing NITDA's oversight role
+# - Nigeria is Africa's largest economy and most populous country (~220M people),
+#   making its data protection framework regionally significant
+# - The Constitution of the Federal Republic of Nigeria (1999, as amended) is the
+#   supreme law; Section 37 guarantees the right to private and family life
+# - Nigeria uses a mixed legal system: English common law, customary law, and
+#   Islamic (Sharia) law in northern states
+# - The legal language is English (official language of Nigeria)
+# - The LFRN portal (lfrn.gov.ng) can be intermittently available; nigerialii.org
+#   provides more reliable access but may not be as current
+# - The Cybercrimes Act 2015 is one of Africa's most comprehensive cybercrime laws,
+#   influenced by the Budapest Convention on Cybercrime
+# - CAMA 2020 modernised Nigerian company law significantly, replacing CAMA 1990

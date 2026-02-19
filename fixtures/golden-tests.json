@@ -1,0 +1,180 @@
+{
+  "$schema": "./golden-tests.schema.json",
+  "version": "1.0",
+  "mcp_name": "Nigeria Law MCP",
+  "description": "Golden contract tests for the Nigeria Law MCP covering data protection (NDPA), cybercrimes, NITDA, companies, and consumer protection legislation",
+  "tests": [
+    {
+      "id": "ng-001",
+      "category": "article_retrieval",
+      "description": "Retrieve Section 1 of the Nigeria Data Protection Act 2023 — objectives including personal data and data subject",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Nigeria Data Protection Act 2023",
+        "article": "1"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "any_result_contains": ["personal data", "data subject", "data protection"],
+        "fields_present": ["text", "article_number"],
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "ng-002",
+      "category": "article_retrieval",
+      "description": "Retrieve Section 1 of the Cybercrimes (Prohibition, Prevention, etc.) Act 2015 — objectives",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Cybercrimes (Prohibition, Prevention, etc.) Act 2015",
+        "article": "1"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "any_result_contains": ["cybercrime", "computer", "prohibition"],
+        "fields_present": ["text", "article_number"],
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "ng-003",
+      "category": "article_retrieval",
+      "description": "Retrieve Section 1 of the Companies and Allied Matters Act (CAMA) 2020 — short title and commencement",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Companies and Allied Matters Act 2020",
+        "article": "1"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "any_result_contains": ["Companies and Allied Matters", "CAMA", "2020"],
+        "fields_present": ["text"],
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "ng-004",
+      "category": "search",
+      "description": "Full-text search for 'personal data' returns NDPA 2023 provisions",
+      "tool": "search_legislation",
+      "input": {
+        "query": "personal data"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "min_results": 1,
+        "any_result_contains": ["Nigeria Data Protection Act", "NDPA", "personal data", "data subject"]
+      }
+    },
+    {
+      "id": "ng-005",
+      "category": "search",
+      "description": "Full-text search for 'cybercrime' returns Cybercrimes Act provisions",
+      "tool": "search_legislation",
+      "input": {
+        "query": "cybercrime"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "min_results": 1,
+        "any_result_contains": ["Cybercrimes", "cybercrime", "computer", "prohibition"]
+      }
+    },
+    {
+      "id": "ng-006",
+      "category": "search",
+      "description": "Full-text search for 'consumer protection' returns FCCPA provisions",
+      "tool": "search_legislation",
+      "input": {
+        "query": "consumer protection"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "min_results": 1,
+        "any_result_contains": ["Federal Competition and Consumer Protection", "FCCPA", "consumer protection", "competition"]
+      }
+    },
+    {
+      "id": "ng-007",
+      "category": "citation_roundtrip",
+      "description": "Citation for NDPA 2023 Section 24 (lawful basis for processing) includes official URL pattern",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Nigeria Data Protection Act 2023",
+        "article": "24"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "fields_present": ["text"],
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "ng-008",
+      "category": "citation_roundtrip",
+      "description": "Citation for Cybercrimes Act 2015 Section 1 includes official identifier",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Cybercrimes (Prohibition, Prevention, etc.) Act 2015",
+        "article": "1"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "fields_present": ["text", "article_number"],
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "ng-009",
+      "category": "eu_cross_reference",
+      "description": "NDPA 2023 cross-reference to GDPR — Nigeria's NDPA draws from GDPR principles",
+      "tool": "get_provision_eu_basis",
+      "input": {
+        "law_identifier": "Nigeria Data Protection Act 2023"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "any_result_contains": ["GDPR", "General Data Protection Regulation", "2016/679", "data protection"]
+      }
+    },
+    {
+      "id": "ng-010",
+      "category": "eu_cross_reference",
+      "description": "Cybercrimes Act 2015 cross-reference to Budapest Convention on Cybercrime",
+      "tool": "get_provision_eu_basis",
+      "input": {
+        "law_identifier": "Cybercrimes (Prohibition, Prevention, etc.) Act 2015"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "any_result_contains": ["Budapest Convention", "Convention on Cybercrime", "cybercrime", "Council of Europe"]
+      }
+    },
+    {
+      "id": "ng-011",
+      "category": "negative_test",
+      "description": "Non-existent Nigerian Act returns graceful error or empty result",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Fictional Digital Naira Protection Act 2099",
+        "article": "1"
+      },
+      "assertions": {
+        "handles_gracefully": true
+      }
+    },
+    {
+      "id": "ng-012",
+      "category": "negative_test",
+      "description": "Malformed section number returns graceful error or empty result",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Nigeria Data Protection Act 2023",
+        "article": "999ZZZ-INVALID"
+      },
+      "assertions": {
+        "handles_gracefully": true
+      }
+    }
+  ]
+}

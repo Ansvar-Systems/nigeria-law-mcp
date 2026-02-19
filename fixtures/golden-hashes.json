@@ -1,0 +1,56 @@
+{
+  "$schema": "./golden-hashes.schema.json",
+  "version": "1.0",
+  "mcp_name": "Nigeria Law MCP",
+  "jurisdiction": "NG",
+  "provisions": [
+    {
+      "id": "ng-hash-001",
+      "description": "Constitution of the Federal Republic of Nigeria (1999, as amended), Section 1 — supremacy of Constitution and binding effect on all authorities and persons",
+      "upstream_url": "https://nigerialii.org/akn/ng/act/1999/constitution/eng@2011-12-31",
+      "selector_hint": "Section 1 - Supremacy of Constitution",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "This Constitution is supreme"
+    },
+    {
+      "id": "ng-hash-002",
+      "description": "Constitution of Nigeria (1999, as amended), Section 37 — right to private and family life, guaranteeing privacy of citizens, homes, correspondence, and communication",
+      "upstream_url": "https://nigerialii.org/akn/ng/act/1999/constitution/eng@2011-12-31",
+      "selector_hint": "Section 37 - Right to private and family life",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "privacy of citizens"
+    },
+    {
+      "id": "ng-hash-003",
+      "description": "Nigeria Data Protection Act 2023, Section 1 — objectives of the Act including protection of personal data and establishment of regulatory framework",
+      "upstream_url": "https://ndpc.gov.ng/Files/Nigeria_Data_Protection_Act_2023.pdf",
+      "selector_hint": "Section 1 - Objectives",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "data protection"
+    },
+    {
+      "id": "ng-hash-004",
+      "description": "Cybercrimes (Prohibition, Prevention, etc.) Act 2015, Section 1 — objectives of the Act including prohibition and prevention of cybercrimes",
+      "upstream_url": "https://nigerialii.org/akn/ng/act/2015/cybercrimes/eng@2015-05-15",
+      "selector_hint": "Section 1 - Objectives",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "cybercrime"
+    },
+    {
+      "id": "ng-hash-005",
+      "description": "Companies and Allied Matters Act (CAMA) 2020, Section 1 — short title and establishment of Corporate Affairs Commission",
+      "upstream_url": "https://nigerialii.org/akn/ng/act/2020/cama/eng@2020-08-07",
+      "selector_hint": "Section 1 - Short title",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "Companies and Allied Matters"
+    },
+    {
+      "id": "ng-hash-006",
+      "description": "National Information Technology Development Agency (NITDA) Act 2007, Section 1 — establishment of NITDA as a body corporate",
+      "upstream_url": "https://nigerialii.org/akn/ng/act/2007/nitda/eng@2007-04-24",
+      "selector_hint": "Section 1 - Establishment of NITDA",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "National Information Technology Development Agency"
+    }
+  ]
+}
