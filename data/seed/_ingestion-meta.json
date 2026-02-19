@@ -1,0 +1,102 @@
+{
+  "ingested_at": "2026-02-19T16:25:13.411Z",
+  "total_acts_attempted": 12,
+  "total_acts_succeeded": 0,
+  "total_provisions": 87,
+  "unavailable_sources": 7,
+  "failed": 0,
+  "results": [
+    {
+      "id": "nitda-act-2007",
+      "shortName": "NITDA Act",
+      "provisions": 33,
+      "status": "cached",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=412"
+    },
+    {
+      "id": "bofia-2004",
+      "shortName": "BOFIA",
+      "provisions": 54,
+      "status": "cached",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=45"
+    },
+    {
+      "id": "evidence-act-2004",
+      "shortName": "Evidence Act",
+      "provisions": 0,
+      "status": "skipped_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/E14.pdf"
+    },
+    {
+      "id": "cama-2004",
+      "shortName": "CAMA",
+      "provisions": 0,
+      "status": "skipped_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/C20.pdf"
+    },
+    {
+      "id": "constitution-1999",
+      "shortName": "Constitution 1999",
+      "provisions": 0,
+      "status": "skipped_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/C23.pdf"
+    },
+    {
+      "id": "ndpa-2023",
+      "shortName": "NDPA 2023",
+      "provisions": 0,
+      "status": "unavailable",
+      "source": "https://ndpc.gov.ng/Files/Nigeria_Data_Protection_Act_2023.pdf"
+    },
+    {
+      "id": "cybercrimes-act-2015",
+      "shortName": "Cybercrimes Act 2015",
+      "provisions": 0,
+      "status": "unavailable",
+      "source": "https://www.cert.gov.ng/ngcert/resources/CyberCrime__Prohibition_Prevention_etc__Act__2015.pdf"
+    },
+    {
+      "id": "cama-2020",
+      "shortName": "CAMA 2020",
+      "provisions": 0,
+      "status": "unavailable",
+      "source": "https://nigerialii.org/akn/ng/act/2020/3/eng%402020-08-07"
+    },
+    {
+      "id": "fccpa-2018",
+      "shortName": "FCCPA 2018",
+      "provisions": 0,
+      "status": "unavailable",
+      "source": "https://nigerialii.org/akn/ng/act/2018/1/eng%402018-12-01"
+    },
+    {
+      "id": "evidence-act-2011",
+      "shortName": "Evidence Act 2011",
+      "provisions": 0,
+      "status": "unavailable",
+      "source": "https://nigerialii.org/akn/ng/act/2011/18/eng%402011-06-03"
+    },
+    {
+      "id": "bofia-2020",
+      "shortName": "BOFIA 2020",
+      "provisions": 0,
+      "status": "unavailable",
+      "source": "https://nigerialii.org/akn/ng/act/2020/5/eng%402020-11-14"
+    },
+    {
+      "id": "foi-act-2011",
+      "shortName": "FOI Act 2011",
+      "provisions": 0,
+      "status": "unavailable",
+      "source": "https://nigerialii.org/akn/ng/act/2011/4/eng%402011-05-28"
+    }
+  ],
+  "source_status": {
+    "plac_html": "WORKING -- placng.org/lawsofnigeria/view2.php",
+    "plac_pdf": "WORKING but not parsed (no PDF library)",
+    "nigerialii": "DOWN -- 0 legislation documents, AKN URLs return 404",
+    "lfrn": "DOWN -- no response from lfrn.gov.ng",
+    "ndpc": "PARTIAL -- NDPA 2023 PDF removed (404)",
+    "cert": "DOWN -- unreachable"
+  }
+}
