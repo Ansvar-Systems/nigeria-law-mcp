@@ -1,7 +1,7 @@
 {
-  "ingested_at": "2026-02-19T16:25:13.411Z",
+  "ingested_at": "2026-02-20T06:18:29.807Z",
   "total_acts_attempted": 12,
-  "total_acts_succeeded": 0,
+  "total_acts_succeeded": 2,
   "total_provisions": 87,
   "unavailable_sources": 7,
   "failed": 0,
@@ -10,14 +10,14 @@
       "id": "nitda-act-2007",
       "shortName": "NITDA Act",
       "provisions": 33,
-      "status": "cached",
+      "status": "ok",
       "source": "https://placng.org/lawsofnigeria/view2.php?sn=412"
     },
     {
       "id": "bofia-2004",
       "shortName": "BOFIA",
       "provisions": 54,
-      "status": "cached",
+      "status": "ok",
       "source": "https://placng.org/lawsofnigeria/view2.php?sn=45"
     },
     {
