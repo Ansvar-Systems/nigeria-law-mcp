@@ -123,6 +123,28 @@ Once connected, just ask naturally:
 
 ---
 
+## Key Legislation Covered
+
+| Act | Year | Significance |
+|-----|------|-------------|
+| **Nigeria Data Protection Act (NDPA)** | 2023 | Comprehensive data protection law replacing NDPR 2019; established the Nigeria Data Protection Commission (NDPC) as an independent regulator |
+| **Cybercrimes (Prohibition, Prevention, etc.) Act** | 2015 | One of Africa's most comprehensive cybercrime laws, influenced by the Budapest Convention |
+| **National Information Technology Development Agency (NITDA) Act** | 2007 | Establishes NITDA for IT development policy and regulation |
+| **Companies and Allied Matters Act (CAMA)** | 2020 | Modernised Nigerian company law, replacing CAMA 1990; governs incorporation and regulation of companies |
+| **Federal Competition and Consumer Protection Act (FCCPA)** | 2018 | Established the Federal Competition and Consumer Protection Commission (FCCPC) |
+| **Evidence Act** | 2011 | Includes electronic evidence provisions; admissibility of computer-generated evidence |
+| **Constitution of Nigeria** | 1999 (amended) | Supreme law; Section 37 guarantees the right to private and family life |
+
+---
+
+## Deployment Tier
+
+**SMALL/MEDIUM** -- Likely single tier bundled, possibly dual tier if the full corpus (including state legislation) exceeds npm package size limits.
+
+**Estimated database size:** ~100-250 MB (federal Acts, regulations, and selected state legislation)
+
+---
+
 ## Available Tools (13)
 
 ### Core Legal Research Tools (8)
