@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "jurisdiction": "NG",
+  "portal": "lfrn.gov.ng + nigerialii.org",
+  "generated": "2026-02-22",
+  "total_laws": 2,
+  "total_provisions": 87,
+  "laws": [
+    {
+      "id": "bofia-2004",
+      "title": "Banks and Other Financial Institutions Act",
+      "provisions": 54
+    },
+    {
+      "id": "nitda-act-2007",
+      "title": "National Information Technology Development Agency Act 2007",
+      "provisions": 33
+    }
+  ]
+}

@@ -2,152 +2,152 @@
   "$schema": "./golden-tests.schema.json",
   "version": "1.0",
   "mcp_name": "Nigeria Law MCP",
-  "description": "Golden contract tests for the Nigeria Law MCP covering data protection (NDPA), cybercrimes, NITDA, companies, and consumer protection legislation",
+  "description": "Golden contract tests for the Nigeria Law MCP covering BOFIA (banking) and NITDA Act (technology) legislation",
   "tests": [
     {
       "id": "ng-001",
       "category": "article_retrieval",
-      "description": "Retrieve Section 1 of the Nigeria Data Protection Act 2023 — objectives including personal data and data subject",
+      "description": "Retrieve Section 1 of the NITDA Act 2007 — Establishment of the Agency",
       "tool": "get_provision",
       "input": {
-        "law_identifier": "Nigeria Data Protection Act 2023",
-        "article": "1"
+        "document_id": "nitda-act-2007",
+        "section": "1"
       },
       "assertions": {
         "result_not_empty": true,
-        "any_result_contains": ["personal data", "data subject", "data protection"],
-        "fields_present": ["text", "article_number"],
+        "any_result_contains": ["Agency"],
+        "fields_present": ["results"],
         "text_not_empty": true
       }
     },
     {
       "id": "ng-002",
       "category": "article_retrieval",
-      "description": "Retrieve Section 1 of the Cybercrimes (Prohibition, Prevention, etc.) Act 2015 — objectives",
+      "description": "Retrieve Section 6 of the NITDA Act 2007 — Functions of the Agency",
       "tool": "get_provision",
       "input": {
-        "law_identifier": "Cybercrimes (Prohibition, Prevention, etc.) Act 2015",
-        "article": "1"
+        "document_id": "nitda-act-2007",
+        "section": "6"
       },
       "assertions": {
         "result_not_empty": true,
-        "any_result_contains": ["cybercrime", "computer", "prohibition"],
-        "fields_present": ["text", "article_number"],
+        "any_result_contains": ["Agency", "framework"],
+        "fields_present": ["results"],
         "text_not_empty": true
       }
     },
     {
       "id": "ng-003",
       "category": "article_retrieval",
-      "description": "Retrieve Section 1 of the Companies and Allied Matters Act (CAMA) 2020 — short title and commencement",
+      "description": "Retrieve Section 1 of BOFIA 2004 — Functions of the Central Bank",
       "tool": "get_provision",
       "input": {
-        "law_identifier": "Companies and Allied Matters Act 2020",
-        "article": "1"
+        "document_id": "bofia-2004",
+        "section": "1"
       },
       "assertions": {
         "result_not_empty": true,
-        "any_result_contains": ["Companies and Allied Matters", "CAMA", "2020"],
-        "fields_present": ["text"],
+        "any_result_contains": ["Central Bank", "Nigeria"],
+        "fields_present": ["results"],
         "text_not_empty": true
       }
     },
     {
       "id": "ng-004",
-      "category": "search",
-      "description": "Full-text search for 'personal data' returns NDPA 2023 provisions",
-      "tool": "search_legislation",
+      "category": "article_retrieval",
+      "description": "Retrieve Section 2 of BOFIA 2004 — Banking business",
+      "tool": "get_provision",
       "input": {
-        "query": "personal data"
+        "document_id": "bofia-2004",
+        "section": "2"
       },
       "assertions": {
         "result_not_empty": true,
-        "min_results": 1,
-        "any_result_contains": ["Nigeria Data Protection Act", "NDPA", "personal data", "data subject"]
+        "any_result_contains": ["banking business", "licence"],
+        "fields_present": ["results"],
+        "text_not_empty": true
       }
     },
     {
       "id": "ng-005",
       "category": "search",
-      "description": "Full-text search for 'cybercrime' returns Cybercrimes Act provisions",
+      "description": "Full-text search for 'banking licence' returns BOFIA provisions",
       "tool": "search_legislation",
       "input": {
-        "query": "cybercrime"
+        "query": "banking licence"
       },
       "assertions": {
         "result_not_empty": true,
         "min_results": 1,
-        "any_result_contains": ["Cybercrimes", "cybercrime", "computer", "prohibition"]
+        "any_result_contains": ["banking", "licence"]
       }
     },
     {
       "id": "ng-006",
       "category": "search",
-      "description": "Full-text search for 'consumer protection' returns FCCPA provisions",
+      "description": "Full-text search for 'information technology' returns NITDA Act provisions",
       "tool": "search_legislation",
       "input": {
-        "query": "consumer protection"
+        "query": "information technology"
       },
       "assertions": {
         "result_not_empty": true,
         "min_results": 1,
-        "any_result_contains": ["Federal Competition and Consumer Protection", "FCCPA", "consumer protection", "competition"]
+        "any_result_contains": ["information technology"]
       }
     },
     {
       "id": "ng-007",
-      "category": "citation_roundtrip",
-      "description": "Citation for NDPA 2023 Section 24 (lawful basis for processing) includes official URL pattern",
-      "tool": "get_provision",
+      "category": "search",
+      "description": "Full-text search for 'Central Bank' returns BOFIA provisions",
+      "tool": "search_legislation",
       "input": {
-        "law_identifier": "Nigeria Data Protection Act 2023",
-        "article": "24"
+        "query": "Central Bank"
       },
       "assertions": {
         "result_not_empty": true,
-        "fields_present": ["text"],
-        "text_not_empty": true
+        "min_results": 1,
+        "any_result_contains": ["Central Bank"]
       }
     },
     {
       "id": "ng-008",
-      "category": "citation_roundtrip",
-      "description": "Citation for Cybercrimes Act 2015 Section 1 includes official identifier",
+      "category": "article_retrieval",
+      "description": "Retrieve all provisions of NITDA Act by omitting section",
       "tool": "get_provision",
       "input": {
-        "law_identifier": "Cybercrimes (Prohibition, Prevention, etc.) Act 2015",
-        "article": "1"
+        "document_id": "nitda-act-2007"
       },
       "assertions": {
         "result_not_empty": true,
-        "fields_present": ["text", "article_number"],
+        "min_results": 10,
         "text_not_empty": true
       }
     },
     {
       "id": "ng-009",
-      "category": "eu_cross_reference",
-      "description": "NDPA 2023 cross-reference to GDPR — Nigeria's NDPA draws from GDPR principles",
-      "tool": "get_provision_eu_basis",
+      "category": "currency_check",
+      "description": "Check currency status for NITDA Act 2007",
+      "tool": "check_currency",
       "input": {
-        "law_identifier": "Nigeria Data Protection Act 2023"
+        "document_id": "nitda-act-2007"
       },
       "assertions": {
         "result_not_empty": true,
-        "any_result_contains": ["GDPR", "General Data Protection Regulation", "2016/679", "data protection"]
+        "text_not_empty": true
       }
     },
     {
       "id": "ng-010",
-      "category": "eu_cross_reference",
-      "description": "Cybercrimes Act 2015 cross-reference to Budapest Convention on Cybercrime",
-      "tool": "get_provision_eu_basis",
+      "category": "citation",
+      "description": "Validate citation for BOFIA Section 1",
+      "tool": "validate_citation",
       "input": {
-        "law_identifier": "Cybercrimes (Prohibition, Prevention, etc.) Act 2015"
+        "citation": "Section 1, Banks and Other Financial Institutions Act"
       },
       "assertions": {
         "result_not_empty": true,
-        "any_result_contains": ["Budapest Convention", "Convention on Cybercrime", "cybercrime", "Council of Europe"]
+        "text_not_empty": true
       }
     },
     {
@@ -156,8 +156,8 @@
       "description": "Non-existent Nigerian Act returns graceful error or empty result",
       "tool": "get_provision",
       "input": {
-        "law_identifier": "Fictional Digital Naira Protection Act 2099",
-        "article": "1"
+        "document_id": "Fictional Digital Naira Protection Act 2099",
+        "section": "1"
       },
       "assertions": {
         "handles_gracefully": true
@@ -169,8 +169,8 @@
       "description": "Malformed section number returns graceful error or empty result",
       "tool": "get_provision",
       "input": {
-        "law_identifier": "Nigeria Data Protection Act 2023",
-        "article": "999ZZZ-INVALID"
+        "document_id": "nitda-act-2007",
+        "section": "999ZZZ-INVALID"
       },
       "assertions": {
         "handles_gracefully": true

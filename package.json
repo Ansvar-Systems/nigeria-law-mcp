@@ -1,6 +1,6 @@
 {
   "name": "@ansvar/nigeria-law-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "mcpName": "eu.ansvar/nigeria-law-mcp",
   "description": "Nigeria law database covering data protection (NDPA), cybercrimes, NITDA, companies, and consumer protection law with full-text search",
   "author": "Ansvar Systems AB <hello@ansvar.ai>",
@@ -37,6 +37,7 @@
   "files": [
     "dist",
     "data/database.db",
+    "data/census.json",
     "server.json"
   ],
   "scripts": {

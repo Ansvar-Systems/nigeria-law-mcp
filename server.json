@@ -1,20 +1,43 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "eu.ansvar/nigeria-law-mcp",
-  "description": "Nigeria law database covering data protection (NDPA), cybercrimes, NITDA, companies, and consumer protection law with full-text search",
+  "description": "Nigeria legislation via MCP — full-text search across statutes and provisions",
   "repository": {
     "url": "https://github.com/Ansvar-Systems/nigeria-law-mcp",
     "source": "github"
   },
   "homepage": "https://ansvar.eu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "Apache-2.0",
+  "keywords": [
+    "nigeria-law",
+    "nigerian-law",
+    "ndpa",
+    "data-protection",
+    "cybercrimes",
+    "cama",
+    "nitda",
+    "consumer-protection",
+    "west-africa",
+    "mcp"
+  ],
   "packages": [
     {
       "registryType": "npm",
       "identifier": "@ansvar/nigeria-law-mcp",
-      "version": "1.0.0",
-      "transport": { "type": "stdio" }
+      "version": "1.0.1",
+      "transport": {
+        "type": "stdio"
+      }
+    },
+    {
+      "registryType": "npm",
+      "identifier": "@ansvar/nigeria-law-mcp",
+      "version": "1.0.1",
+      "transport": {
+        "type": "streamable-http",
+        "url": "https://nigeria-law-mcp.vercel.app/mcp"
+      }
     }
   ]
 }
