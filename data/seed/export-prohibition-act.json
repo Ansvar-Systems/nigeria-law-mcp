@@ -1,0 +1,32 @@
+{
+  "id": "export-prohibition-act",
+  "type": "statute",
+  "title": "EXPORT (PROHIBITION) ACT",
+  "title_en": "EXPORT (PROHIBITION) ACT",
+  "short_name": "EXPORT (PROHIBITION) ACT",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://placng.org/lawsofnigeria/view2.php?sn=145",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "Prohibition of exportation of certain goods",
+      "content": "1. Prohibition of exportation of certain goods Notwithstanding anything contained in the Customs Excise Tariff, etc. (Consolidation) Act or in any Act or other enactment (including any statutory instrument or order), the goods specified in the Schedule to this Act shall be absolutely prohibited from being exported out of Nigeria. [Cap. C49. Schedule.]"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "Offences, penalty, etc.",
+      "content": "2. Offences, penalty, etc. (1) Any person who takes, causes to be taken, induces any other person to take or attempts to take out of Nigeria any of the goods specified in the Schedule to this Act shall be guilty of an offence and liable on conviction to imprisonment for life. (2) In addition to the penalty specified in subsection (1) of this section- (a) the goods, as well as any vehicle, vessel, aircraft or other thing whatsoever used in connection with the exportation; and (b) all the assets, movable or immovable, including motor vehicles, of any person convicted of the offence, shall be forfeited to the Federal Government. (3) Any customs officer or other person who aids, counsels, procures, or conspires with any person to commit an offence under this section, shall be guilty of an offence and liable on conviction to the same punishment as prescribed for the offence under subsection (1) of this section. (4) Any offence committed under this Act shall be triable by the Federal High Court. [1999 No. 62.]"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "Short title",
+      "content": "3. Short title This Act may be cited as the Export (Prohibition) Act. SCHEDULE Goods the exportation of which is absolutely prohibited, absolute prohibition (Trade) [Section 1.] 1. Beans. 2. Cassava tuber. 3. Maize. 4. Rice. 5. Yam tuber. 6. All products or derivatives of items 1 to 5. 7. All imported food items. _______________________________ EXPORT (PROHIBITION) ACT SUBSIDIARY LEGISLATION ______________________________ No Subsidiary Legislation _______________________________"
+    }
+  ],
+  "definitions": []
+}

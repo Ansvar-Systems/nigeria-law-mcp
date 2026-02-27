@@ -1,0 +1,50 @@
+{
+  "id": "school-year-variation-act",
+  "type": "statute",
+  "title": "SCHOOL YEAR (VARIATION) ACT",
+  "title_en": "SCHOOL YEAR (VARIATION) ACT",
+  "short_name": "SCHOOL YEAR (VARIATION) ACT",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://placng.org/lawsofnigeria/view2.php?sn=486",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "School year period for schools and colleges",
+      "content": "School year period for schools and colleges (1) As from 1991, all schools and colleges shall begin the school year in the month of September of each year and end in the month of June of the following year. (2) The provisions of subsection (1) of this section shall not apply to a higher educa- tional institution established under any enactment or law."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "Power of Minister to extend application of the provisions of this Act",
+      "content": "Power of Minister to extend application of the provisions of this Act The Minister may, by an order published in the Gazette, extend the provisions of sec- tion I of this Act to any institution of learning if he is of the opinion that it is necessary to do so."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "Power of Minister to give directions",
+      "content": "3. Power of Minister to give directions The Minister may give such directions as he may in his discretion consider necessary to any school or college, other than a university or other higher educational institution, to enable full effect to be given to the provisions of section 1 of this Act."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "Interpretation",
+      "content": "Interpretation In this Act, \"the Minister\" means the Minister charged with responsibility for matters relating to education."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "Short title",
+      "content": "5. Short title This Act may be cited as the School Year (Variation) Act. SUBSIDIARY LEGISLATION No Subsidiary Legislation"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "the Minister",
+      "definition": "the Minister charged with responsibility for matters relating to education",
+      "source_provision": "s4"
+    }
+  ]
+}

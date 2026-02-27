@@ -1,0 +1,32 @@
+{
+  "id": "trustee-investments-act",
+  "type": "statute",
+  "title": "TRUSTEE INVESTMENTS ACT",
+  "title_en": "TRUSTEE INVESTMENTS ACT",
+  "short_name": "TRUSTEE INVESTMENTS ACT",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://placng.org/lawsofnigeria/view2.php?sn=524",
+  "provisions": [
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "Securities in which trustee may invest",
+      "content": "Securities in which trustee may invest (1) Without prejudice to the enabling provisions of any other law, a trustee may, under the powers of this Act, invest in any of the securities specified or referred to in section 2 of this Act. (2) The power conferred by subsection (1) of this section shall be exercised according to the discretion of the trustee, but subject to any consent or direction required by the instrument, if any, creating the trust or by law with respect to the investment of the trust funds."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "Cessation of authorisation of investment",
+      "content": "Cessation of authorisation of investment A trustee shall not be liable for breach of trust by reason only of his continuing to hold an investment which has at any time ceased to be an investment authorised by the provisions of this Act."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "Power to make regulations",
+      "content": "Power to make regulations The Minister of the Government of the Federation responsible for finance may by regulations provide for the application of this Act, subject to such additions, alterations or omissions as may be specified by the regulations- (a) in cases where a company is amalgamated with or acquired or controlled by or has its business taken over by another company; (b) in cases where shares are issued in place of the payment of the whole or part of any dividend, and the regulations may make different provision for different circumstances. SCHEDULE [Section 2 (1) (c).] The Nigerian Coal Corporation. The National Electric Power Authority. The Nigerian Ports Authority. The Nigerian Railway Corporation. SUBSIDIARY LEGISLATION No Subsidiary Legislation"
+    }
+  ],
+  "definitions": []
+}

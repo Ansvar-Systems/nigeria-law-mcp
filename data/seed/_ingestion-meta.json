@@ -1,11 +1,3802 @@
 {
-  "ingested_at": "2026-02-20T06:18:29.807Z",
-  "total_acts_attempted": 12,
-  "total_acts_succeeded": 2,
-  "total_provisions": 87,
+  "ingested_at": "2026-02-26T13:35:24.098Z",
+  "pipeline": "full-corpus-plac",
+  "total_acts": 553,
+  "with_provisions": 391,
+  "metadata_only": 162,
+  "total_provisions": 6722,
+  "pdf_sources": 135,
   "unavailable_sources": 7,
+  "cached": 0,
   "failed": 0,
   "results": [
+    {
+      "id": "acts-authentication-act",
+      "shortName": "ACTS AUTHENTICATION ACT",
+      "provisions": 6,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=14"
+    },
+    {
+      "id": "administration-of-justice-commission-act",
+      "shortName": "ADMINISTRATION OF JUSTICE COMMISSION ACT",
+      "provisions": 9,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=15"
+    },
+    {
+      "id": "administrative-staff-college-of-nigeria-act",
+      "shortName": "ADMINISTRATIVE STAFF COLLEGE OF NIGERIA",
+      "provisions": 17,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=16"
+    },
+    {
+      "id": "admiralty-jurisdiction-act",
+      "shortName": "ADMIRALTY JURISDICTION ACT",
+      "provisions": 7,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=17"
+    },
+    {
+      "id": "advance-fee-fraud-and-other-fraud-related-offences-act",
+      "shortName": "ADVANCE FEE FRAUD AND OTHER FRAUD",
+      "provisions": 22,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=18"
+    },
+    {
+      "id": "advertising-practitioner-s-registration-etc-act",
+      "shortName": "ADVERTISING PRACTITIONER’S",
+      "provisions": 31,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=22"
+    },
+    {
+      "id": "advisory-council-on-religious-affairs-act",
+      "shortName": "ADVISORY COUNCIL ON RELIGIOUS AFFAIRS",
+      "provisions": 8,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=23"
+    },
+    {
+      "id": "abubakar-tafawa-balewa-university-bauchi-act",
+      "shortName": "ABUBAKAR TAFAWA BALEWA UNIVERSITY,",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/A1.pdf"
+    },
+    {
+      "id": "african-charter-on-human-and-peoples-rights-ratification-and-enforcement-act",
+      "shortName": "AFRICAN CHARTER ON HUMAN AND PEOPLES'",
+      "provisions": 1,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=24"
+    },
+    {
+      "id": "agricultural-and-rural-management-training-institute-act",
+      "shortName": "AGRICULTURAL AND RURAL MANAGEMENT",
+      "provisions": 17,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=25"
+    },
+    {
+      "id": "agricultural-credit-guarantee-scheme-fund-act",
+      "shortName": "AGRICULTURAL CREDIT GUARANTEE SCHEME",
+      "provisions": 5,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=26"
+    },
+    {
+      "id": "agricultural-research-council-of-nigeria-act",
+      "shortName": "AGRICULTURAL RESEARCH COUNCIL OF",
+      "provisions": 20,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=27"
+    },
+    {
+      "id": "ahmadu-bello-university-transitional-provisions-act",
+      "shortName": "AHMADU BELLO UNIVERSITY (TRANSITIONAL",
+      "provisions": 43,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=28"
+    },
+    {
+      "id": "allocation-of-revenue-abolition-of-dichotomy-in-the-application-of-the-principle",
+      "shortName": "ALLOCATION OF REVENUE (ABOLITION OF",
+      "provisions": 0,
+      "status": "no_provisions",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=42"
+    },
+    {
+      "id": "allocation-of-revenue-federation-account-etc-act",
+      "shortName": "ALLOCATION OF REVENUE (FEDERATION",
+      "provisions": 9,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=29"
+    },
+    {
+      "id": "agriculture-control-of-importation-act",
+      "shortName": "AGRICULTURE (CONTROL OF IMPORTATION) ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/A13.pdf"
+    },
+    {
+      "id": "anatomy-act",
+      "shortName": "ANATOMY ACT",
+      "provisions": 0,
+      "status": "no_provisions",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=30"
+    },
+    {
+      "id": "arbitration-and-conciliation-act",
+      "shortName": "ARBITRATION AND CONCILIATION ACT",
+      "provisions": 58,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=32"
+    },
+    {
+      "id": "architects-registration-etc-act",
+      "shortName": "ARCHITECTS (REGISTRATION, ETC.) ACT",
+      "provisions": 18,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=33"
+    },
+    {
+      "id": "armed-forces-disciplinary-proceedings-special-provisions-act",
+      "shortName": "ARMED FORCES (DISCIPLINARY PROCEEDINGS)",
+      "provisions": 6,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=37"
+    },
+    {
+      "id": "armed-forces-act",
+      "shortName": "ARMED FORCES ACT",
+      "provisions": 290,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=35"
+    },
+    {
+      "id": "armed-forces-comfort-fund-act",
+      "shortName": "ARMED FORCES COMFORT FUND ACT",
+      "provisions": 4,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=36"
+    },
+    {
+      "id": "animal-diseases-control-act",
+      "shortName": "ANIMAL DISEASES (CONTROL) ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/A17.pdf"
+    },
+    {
+      "id": "armed-forces-pension-act",
+      "shortName": "ARMED FORCES PENSION ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/A23.pdf"
+    },
+    {
+      "id": "army-colour-prohibition-of-use-act",
+      "shortName": "ARMY COLOUR (PROHIBITION OF USE) ACT",
+      "provisions": 5,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=39"
+    },
+    {
+      "id": "associated-gas-re-injection-act",
+      "shortName": "ASSOCIATED GAS RE-INJECTION ACT",
+      "provisions": 8,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=40"
+    },
+    {
+      "id": "association-of-national-accountants-of-nigeria-act",
+      "shortName": "ASSOCIATION OF NATIONAL ACCOUNTANTS OF",
+      "provisions": 70,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=41"
+    },
+    {
+      "id": "banks-motor-vehicle-loans-miscellaneous-provisions-act",
+      "shortName": "BANKS (MOTOR VEHICLE LOANS)",
+      "provisions": 4,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=46"
+    },
+    {
+      "id": "banks-and-other-financial-institutions-act",
+      "shortName": "BANKS AND OTHER FINANCIAL INSTITUTIONS",
+      "provisions": 54,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=45"
+    },
+    {
+      "id": "bayero-university-act",
+      "shortName": "BAYERO UNIVERSITY ACT",
+      "provisions": 25,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=47"
+    },
+    {
+      "id": "bank-employees-etc-declaration-of-assets-act",
+      "shortName": "BANK EMPLOYEES, ETC. (DECLARATION OF",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/B1.pdf"
+    },
+    {
+      "id": "bees-import-control-and-management-act",
+      "shortName": "BEES (IMPORT CONTROL AND MANAGEMENT) ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/B6.pdf"
+    },
+    {
+      "id": "bight-of-bonny-act",
+      "shortName": "BIGHT OF BONNY ACT",
+      "provisions": 0,
+      "status": "no_provisions",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=49"
+    },
+    {
+      "id": "bills-of-exchange-act",
+      "shortName": "BILLS OF EXCHANGE ACT",
+      "provisions": 90,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=50"
+    },
+    {
+      "id": "border-communities-development-agency-establishment-etc-act",
+      "shortName": "BORDER COMMUNITIES DEVELOPMENT AGENCY",
+      "provisions": 22,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=52"
+    },
+    {
+      "id": "borstal-institutions-and-remand-centres-act",
+      "shortName": "BORSTAL INSTITUTIONS AND REMAND CENTRES",
+      "provisions": 131,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=53"
+    },
+    {
+      "id": "boy-scouts-act",
+      "shortName": "BOY SCOUTS ACT",
+      "provisions": 6,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=54"
+    },
+    {
+      "id": "builders-registration-etc-act",
+      "shortName": "BUILDERS (REGISTRATION, ETC.) ACT",
+      "provisions": 24,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=55"
+    },
+    {
+      "id": "building-lines-federal-trunk-roads-act",
+      "shortName": "BUILDING LINES (FEDERAL TRUNK ROADS) ACT",
+      "provisions": 4,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=56"
+    },
+    {
+      "id": "births-deaths-etc-compulsory-registration-act",
+      "shortName": "BIRTHS, DEATHS, ETC. (COMPULSORY",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/B9.pdf"
+    },
+    {
+      "id": "capital-gains-tax-act",
+      "shortName": "CAPITAL GAINS TAX ACT",
+      "provisions": 46,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=57"
+    },
+    {
+      "id": "carriage-of-goods-by-sea-act",
+      "shortName": "CARRIAGE OF GOODS BY SEA ACT",
+      "provisions": 6,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=58"
+    },
+    {
+      "id": "casino-taxation-act",
+      "shortName": "CASINO TAXATION ACT",
+      "provisions": 26,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=59"
+    },
+    {
+      "id": "central-bank-of-nigeria-establishment-act",
+      "shortName": "CENTRAL BANK OF NIGERIA (ESTABLISHMENT)",
+      "provisions": 59,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=60"
+    },
+    {
+      "id": "centre-for-automotive-design-and-development-act",
+      "shortName": "CENTRE FOR AUTOMOTIVE DESIGN AND",
+      "provisions": 18,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=61"
+    },
+    {
+      "id": "centre-for-black-and-african-arts-and-civilisation-act",
+      "shortName": "CENTRE FOR BLACK AND AFRICAN ARTS AND",
+      "provisions": 14,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=62"
+    },
+    {
+      "id": "chartered-institute-of-administration-act",
+      "shortName": "CHARTERED INSTITUTE OF ADMINISTRATION",
+      "provisions": 72,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=63"
+    },
+    {
+      "id": "certain-political-public-and-judicial-office-holders-salaries-and-allowances-etc",
+      "shortName": "CERTAIN POLITICAL, PUBLIC AND JUDICIAL",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/CERTAIN%20POLITICAL,%20PUBLIC%20AND%20JUDICIAL%20OFFICE%20HOLDERS%20_SALARIES%20AND%20ALLOWANCES,%20ETC.pdf"
+    },
+    {
+      "id": "chartered-institute-of-bankers-of-nigeria-act",
+      "shortName": "CHARTERED INSTITUTE OF BANKERS OF",
+      "provisions": 21,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=64"
+    },
+    {
+      "id": "chartered-institute-of-professional-printers-of-nigeria-act",
+      "shortName": "CHARTERED INSTITUTE OF PROFESSIONAL",
+      "provisions": 32,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=111"
+    },
+    {
+      "id": "chartered-institute-of-stockbrokers-act",
+      "shortName": "CHARTERED INSTITUTE OF STOCKBROKERS ACT",
+      "provisions": 19,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=65"
+    },
+    {
+      "id": "chartered-institute-of-taxation-of-nigeria-act",
+      "shortName": "CHARTERED INSTITUTE OF TAXATION OF",
+      "provisions": 23,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=66"
+    },
+    {
+      "id": "chartered-insurance-institute-of-nigeria-act",
+      "shortName": "CHARTERED INSURANCE INSTITUTE OF",
+      "provisions": 23,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=67"
+    },
+    {
+      "id": "citizenship-and-leadership-training-centre-act",
+      "shortName": "CITIZENSHIP AND LEADERSHIP TRAINING",
+      "provisions": 20,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=68"
+    },
+    {
+      "id": "civil-aviation-fire-and-security-measures-act",
+      "shortName": "CIVIL AVIATION (FIRE AND SECURITY",
+      "provisions": 22,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=70"
+    },
+    {
+      "id": "childs-right-act",
+      "shortName": "CHILD'S RIGHT ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/C50.pdf"
+    },
+    {
+      "id": "co-operative-development-act",
+      "shortName": "CO-OPERATIVE DEVELOPMENT ACT",
+      "provisions": 5,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=83"
+    },
+    {
+      "id": "coastal-and-inland-shipping-cabotage-act",
+      "shortName": "COASTAL AND INLAND SHIPPING (CABOTAGE)",
+      "provisions": 42,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=107"
+    },
+    {
+      "id": "coins-act",
+      "shortName": "COINS ACT",
+      "provisions": 9,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=72"
+    },
+    {
+      "id": "commodity-boards-act",
+      "shortName": "COMMODITY BOARDS ACT",
+      "provisions": 26,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=73"
+    },
+    {
+      "id": "community-banks-act",
+      "shortName": "COMMUNITY BANKS ACT",
+      "provisions": 38,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=74"
+    },
+    {
+      "id": "community-health-practitioners-registration-etc-act",
+      "shortName": "COMMUNITY HEALTH PRACTITIONERS",
+      "provisions": 27,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=75"
+    },
+    {
+      "id": "civil-aviation-act",
+      "shortName": "CIVIL AVIATION ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/C13.pdf"
+    },
+    {
+      "id": "code-of-conduct-bureau-and-tribunal-act",
+      "shortName": "CODE OF CONDUCT BUREAU AND TRIBUNAL ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/C15.pdf"
+    },
+    {
+      "id": "compulsory-free-universal-basic-education-act",
+      "shortName": "COMPULSORY, FREE UNIVERSAL BASIC",
+      "provisions": 15,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=108"
+    },
+    {
+      "id": "computer-professionals-registration-council-of-nigeria-act",
+      "shortName": "COMPUTER PROFESSIONALS (REGISTRATION",
+      "provisions": 19,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=78"
+    },
+    {
+      "id": "consular-conventions-act",
+      "shortName": "CONSULAR CONVENTIONS ACT",
+      "provisions": 5,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=80"
+    },
+    {
+      "id": "consumer-protection-council-act",
+      "shortName": "CONSUMER PROTECTION COUNCIL ACT",
+      "provisions": 32,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=81"
+    },
+    {
+      "id": "control-of-advertisement-federal-highways-act",
+      "shortName": "CONTROL OF ADVERTISEMENT (FEDERAL",
+      "provisions": 0,
+      "status": "no_provisions",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=82"
+    },
+    {
+      "id": "companies-and-allied-matters-act",
+      "shortName": "COMPANIES AND ALLIED MATTERS ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/C20.pdf"
+    },
+    {
+      "id": "companies-income-tax-act",
+      "shortName": "COMPANIES INCOME TAX ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/C21.pdf"
+    },
+    {
+      "id": "constitution-of-the-federal-republic-of-nigeria-promulgation-act",
+      "shortName": "CONSTITUTION OF THE FEDERAL REPUBLIC OF",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/C23.pdf"
+    },
+    {
+      "id": "corneal-grafting-act",
+      "shortName": "CORNEAL GRAFTING ACT",
+      "provisions": 3,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=85"
+    },
+    {
+      "id": "corrupt-practices-and-other-related-offences-act",
+      "shortName": "CORRUPT PRACTICES AND OTHER RELATED",
+      "provisions": 53,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=87"
+    },
+    {
+      "id": "council-for-the-regulation-of-freight-forwarding-in-nigeria-act",
+      "shortName": "COUNCIL FOR THE REGULATION OF FREIGHT",
+      "provisions": 27,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=110"
+    },
+    {
+      "id": "council-of-ministers-evidence-act",
+      "shortName": "COUNCIL OF MINISTERS (EVIDENCE) ACT",
+      "provisions": 0,
+      "status": "no_provisions",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=88"
+    },
+    {
+      "id": "counterfeit-and-fake-drugs-and-unwholesome-processed-foods-miscellaneous-provisi",
+      "shortName": "COUNTERFEIT AND FAKE DRUGS AND",
+      "provisions": 13,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=90"
+    },
+    {
+      "id": "copyright-act",
+      "shortName": "COPYRIGHT ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/copyright.pdf"
+    },
+    {
+      "id": "corporate-bodies-members-emoluments-act",
+      "shortName": "CORPORATE BODIES (MEMBERS' EMOLUMENTS)",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/C30.pdf"
+    },
+    {
+      "id": "council-of-nigerian-mining-engineers-and-geoscientists-act",
+      "shortName": "COUNCIL OF NIGERIAN MINING ENGINEERS",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/C33.pdf"
+    },
+    {
+      "id": "counterfeit-currency-special-provisions-act",
+      "shortName": "COUNTERFEIT CURRENCY (SPECIAL",
+      "provisions": 13,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=91"
+    },
+    {
+      "id": "court-of-appeal-act",
+      "shortName": "COURT OF APPEAL ACT",
+      "provisions": 23,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=92"
+    },
+    {
+      "id": "criminal-justice-miscellaneous-provisions-act",
+      "shortName": "CRIMINAL JUSTICE (MISCELLANEOUS",
+      "provisions": 10,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=95"
+    },
+    {
+      "id": "criminal-justice-release-from-custody-special-provisions-act",
+      "shortName": "CRIMINAL JUSTICE (RELEASE FROM CUSTODY)",
+      "provisions": 0,
+      "status": "no_provisions",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=96"
+    },
+    {
+      "id": "creation-of-states-and-boundary-adjustments-procedure-act",
+      "shortName": "CREATION OF STATES AND BOUNDARY",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/C37.pdf"
+    },
+    {
+      "id": "criminal-code-act",
+      "shortName": "CRIMINAL CODE ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/C38.pdf"
+    },
+    {
+      "id": "criminal-procedure-northern-states-act",
+      "shortName": "CRIMINAL PROCEDURE (NORTHERN STATES) ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/CRIMINAL%20PROCEDURE%20(NORTHERN%20STATES)%20ACT.pdf"
+    },
+    {
+      "id": "criminal-procedure-act",
+      "shortName": "CRIMINAL PROCEDURE ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/C41.pdf"
+    },
+    {
+      "id": "currency-conversion-freezing-orders-act-laws",
+      "shortName": "CURRENCY CONVERSION (FREEZING ORDERS)",
+      "provisions": 11,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=99"
+    },
+    {
+      "id": "currency-offences-act",
+      "shortName": "CURRENCY OFFENCES ACT",
+      "provisions": 6,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=100"
+    },
+    {
+      "id": "customs-and-excise-special-penal-and-other-provisions-act",
+      "shortName": "CUSTOMS AND EXCISE (SPECIAL PENAL AND",
+      "provisions": 5,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=103"
+    },
+    {
+      "id": "customs-and-excise-management-disposal-of-goods-act",
+      "shortName": "CUSTOMS AND EXCISE MANAGEMENT (DISPOSAL",
+      "provisions": 7,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=102"
+    },
+    {
+      "id": "customs-duties-dumped-and-subsidized-goods-act",
+      "shortName": "CUSTOMS DUTIES (DUMPED AND SUBSIDIZED",
+      "provisions": 11,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=104"
+    },
+    {
+      "id": "customs-and-excise-management-act",
+      "shortName": "CUSTOMS AND EXCISE MANAGEMENT ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/C45.pdf"
+    },
+    {
+      "id": "customs-excise-tariff-etc-consolidation-act",
+      "shortName": "CUSTOMS, EXCISE TARIFF, ETC.",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/C49.pdf"
+    },
+    {
+      "id": "dangerous-drugs-act",
+      "shortName": "DANGEROUS DRUGS ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/D1.pdf"
+    },
+    {
+      "id": "debt-management-office-establishment-etc-act",
+      "shortName": "DEBT MANAGEMENT OFFICE (ESTABLISHMENT,",
+      "provisions": 24,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=123"
+    },
+    {
+      "id": "decimal-currency-act",
+      "shortName": "DECIMAL CURRENCY ACT",
+      "provisions": 5,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=113"
+    },
+    {
+      "id": "deep-offshore-and-inland-basin-production-sharing-contracts-act",
+      "shortName": "DEEP OFFSHORE AND INLAND BASIN",
+      "provisions": 11,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=114"
+    },
+    {
+      "id": "defence-industries-corporation-of-nigeria-exclusion-of-armed-forces-armament-dep",
+      "shortName": "DEFENCE INDUSTRIES CORPORATION OF",
+      "provisions": 0,
+      "status": "no_provisions",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=116"
+    },
+    {
+      "id": "defence-industries-corporation-of-nigeria-act",
+      "shortName": "DEFENCE INDUSTRIES CORPORATION OF",
+      "provisions": 5,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=115"
+    },
+    {
+      "id": "dental-technologists-registration-etc-act",
+      "shortName": "DENTAL TECHNOLOGISTS (REGISTRATION,",
+      "provisions": 10,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=117"
+    },
+    {
+      "id": "dental-therapists-registration-etc-act",
+      "shortName": "DENTAL THERAPISTS (REGISTRATION, ETC.)",
+      "provisions": 17,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=118"
+    },
+    {
+      "id": "designation-of-enactments-act",
+      "shortName": "DESIGNATION OF ENACTMENTS ACT",
+      "provisions": 0,
+      "status": "no_provisions",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=119"
+    },
+    {
+      "id": "directorate-of-food-roads-and-rural-infrastructures-act",
+      "shortName": "DIRECTORATE OF FOOD, ROADS AND RURAL",
+      "provisions": 6,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=121"
+    },
+    {
+      "id": "dishonoured-cheques-offences-act",
+      "shortName": "DISHONOURED CHEQUES (OFFENCES) ACT",
+      "provisions": 2,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=122"
+    },
+    {
+      "id": "education-national-minimum-standards-and-establishment-of-institutions-act",
+      "shortName": "EDUCATION (NATIONAL MINIMUM STANDARDS",
+      "provisions": 17,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=126"
+    },
+    {
+      "id": "education-tax-act",
+      "shortName": "EDUCATION TAX ACT",
+      "provisions": 5,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=127"
+    },
+    {
+      "id": "educational-correspondence-colleges-accreditation-act",
+      "shortName": "EDUCATIONAL CORRESPONDENCE COLLEGES",
+      "provisions": 7,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=125"
+    },
+    {
+      "id": "diplomatic-immunities-and-privileges-act",
+      "shortName": "DIPLOMATIC IMMUNITIES AND PRIVILEGES ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/D9.pdf"
+    },
+    {
+      "id": "economic-and-financial-crimes-commission-establishment-etc-act",
+      "shortName": "ECONOMIC AND FINANCIAL CRIMES",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/E1.pdf"
+    },
+    {
+      "id": "elections-registration-etc-of-voters-act",
+      "shortName": "ELECTIONS (REGISTRATION, ETC. OF",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/E5.pdf"
+    },
+    {
+      "id": "employees-housing-schemes-special-provisions-act",
+      "shortName": "EMPLOYEES HOUSING SCHEMES (SPECIAL",
+      "provisions": 9,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=131"
+    },
+    {
+      "id": "energy-commission-of-nigeria-act",
+      "shortName": "ENERGY COMMISSION OF NIGERIA ACT",
+      "provisions": 1,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=133"
+    },
+    {
+      "id": "engineers-registration-etc-act",
+      "shortName": "ENGINEERS (REGISTRATION, ETC.) ACT",
+      "provisions": 11,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=134"
+    },
+    {
+      "id": "electoral-act",
+      "shortName": "ELECTORAL ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/E6.pdf"
+    },
+    {
+      "id": "electric-power-sector-reform-act",
+      "shortName": "ELECTRIC POWER SECTOR REFORM ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/E7.pdf"
+    },
+    {
+      "id": "electric-power-sector-reform-act-2004",
+      "shortName": "ELECTRIC POWER SECTOR REFORM ACT, 2004",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/ELECTRIC%20POWER%20SECTOR%20REFORM%20ACT,%202004.pdf"
+    },
+    {
+      "id": "endangered-species-control-of-international-trade-and-traffic-act",
+      "shortName": "ENDANGERED SPECIES (CONTROL OF",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/E9.pdf"
+    },
+    {
+      "id": "environmental-impact-assessment-act",
+      "shortName": "ENVIRONMENTAL IMPACT ASSESSMENT ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/E12.pdf"
+    },
+    {
+      "id": "estate-surveyors-and-valuers-registration-etc-act",
+      "shortName": "ESTATE SURVEYORS AND VALUERS",
+      "provisions": 13,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=136"
+    },
+    {
+      "id": "examination-malpractices-act",
+      "shortName": "EXAMINATION MALPRACTICES ACT",
+      "provisions": 16,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=138"
+    },
+    {
+      "id": "exclusive-economic-zone-act",
+      "shortName": "EXCLUSIVE ECONOMIC ZONE ACT",
+      "provisions": 5,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=140"
+    },
+    {
+      "id": "explosives-act",
+      "shortName": "EXPLOSIVES ACT",
+      "provisions": 0,
+      "status": "no_provisions",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=141"
+    },
+    {
+      "id": "export-incentives-and-miscellaneous-provisions-act",
+      "shortName": "EXPORT (INCENTIVES AND MISCELLANEOUS",
+      "provisions": 5,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=142"
+    },
+    {
+      "id": "export-prohibition-act",
+      "shortName": "EXPORT (PROHIBITION) ACT",
+      "provisions": 3,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=145"
+    },
+    {
+      "id": "evidence-act",
+      "shortName": "EVIDENCE ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/E14.pdf"
+    },
+    {
+      "id": "excise-control-of-distillation-act",
+      "shortName": "EXCISE (CONTROL OF DISTILLATION) ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/E16.pdf"
+    },
+    {
+      "id": "export-of-nigerian-produce-act",
+      "shortName": "EXPORT OF NIGERIAN PRODUCE ACT",
+      "provisions": 4,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=143"
+    },
+    {
+      "id": "export-produce-federal-powers-act",
+      "shortName": "EXPORT PRODUCE (FEDERAL POWERS) ACT",
+      "provisions": 2,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=144"
+    },
+    {
+      "id": "external-loans-rehabilitation-reconstruction-and-development-act",
+      "shortName": "EXTERNAL LOANS (REHABILITATION,",
+      "provisions": 0,
+      "status": "no_provisions",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=146"
+    },
+    {
+      "id": "external-trade-letters-of-credit-control-act",
+      "shortName": "EXTERNAL TRADE LETTERS OF CREDIT",
+      "provisions": 1,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=147"
+    },
+    {
+      "id": "extradition-act",
+      "shortName": "EXTRADITION ACT",
+      "provisions": 12,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=148"
+    },
+    {
+      "id": "extradition-treaty-between-the-government-of-the-federal-rebublic-of-nigeria-and",
+      "shortName": "EXTRADITION TREATY BETWEEN THE",
+      "provisions": 1,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=149"
+    },
+    {
+      "id": "extradition-treaty-between-nigeria-and-south-africa-ratification-and-enforcement",
+      "shortName": "EXTRADITION TREATY BETWEEN NIGERIA AND",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/EXTRADITION%20TREATY%20BETWEEN%20NIGERIA%20AND%20SOUTH%20AFRICA%20_RATIFICATION%20AND%20ENFORCEMENT_%20ACT.pdf"
+    },
+    {
+      "id": "factories-act",
+      "shortName": "FACTORIES ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/F1.pdf"
+    },
+    {
+      "id": "family-economic-advancement-programme-establishment-etc-act",
+      "shortName": "FAMILY ECONOMIC ADVANCEMENT PROGRAMME",
+      "provisions": 30,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=178"
+    },
+    {
+      "id": "family-support-trust-fund-act-laws",
+      "shortName": "FAMILY SUPPORT TRUST FUND ACT LAWS",
+      "provisions": 16,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=163"
+    },
+    {
+      "id": "federal-airports-authority-of-nigeria-act",
+      "shortName": "FEDERAL AIRPORTS AUTHORITY OF NIGERIA",
+      "provisions": 22,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=164"
+    },
+    {
+      "id": "failed-banks-recovery-of-debts-and-financial-malpractices-in-banks-act",
+      "shortName": "FAILED BANKS (RECOVERY OF DEBTS) AND",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/F2.pdf"
+    },
+    {
+      "id": "federal-capital-territory-act",
+      "shortName": "FEDERAL CAPITAL TERRITORY ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/F6.pdf"
+    },
+    {
+      "id": "federal-capital-territory-customary-court",
+      "shortName": "FEDERAL CAPITAL TERRITORY CUSTOMARY",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/FEDERAL%20CAPITAL%20TERRITORY%20CUSTOMARY%20COURT.pdf"
+    },
+    {
+      "id": "federal-character-commission-establishment-etc-act",
+      "shortName": "FEDERAL CHARACTER COMMISSION",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/F7.pdf"
+    },
+    {
+      "id": "federal-colleges-of-education-act",
+      "shortName": "FEDERAL COLLEGES OF EDUCATION ACT",
+      "provisions": 17,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=167"
+    },
+    {
+      "id": "federal-commissions-privileges-and-immunities-act",
+      "shortName": "FEDERAL COMMISSIONS (PRIVILEGES AND",
+      "provisions": 0,
+      "status": "no_provisions",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=168"
+    },
+    {
+      "id": "federal-government-staff-housing-board-act",
+      "shortName": "FEDERAL GOVERNMENT STAFF HOUSING BOARD",
+      "provisions": 18,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=170"
+    },
+    {
+      "id": "federal-housing-authority-act",
+      "shortName": "FEDERAL HOUSING AUTHORITY ACT",
+      "provisions": 7,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=172"
+    },
+    {
+      "id": "federal-judicial-officers-administration-of-pensions-act",
+      "shortName": "FEDERAL JUDICIAL OFFICERS",
+      "provisions": 6,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=195"
+    },
+    {
+      "id": "federal-environmental-protection-agency-act",
+      "shortName": "FEDERAL ENVIRONMENTAL PROTECTION AGENCY",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/F10.pdf"
+    },
+    {
+      "id": "federal-highways-act",
+      "shortName": "FEDERAL HIGHWAYS ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/F13.pdf"
+    },
+    {
+      "id": "federal-inland-revenue-service-establishment-act",
+      "shortName": "FEDERAL INLAND REVENUE SERVICE",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/F36.pdf"
+    },
+    {
+      "id": "federal-lands-registry-miscellaneous-provisions-act",
+      "shortName": "FEDERAL LANDS REGISTRY (MISCELLANEOUS",
+      "provisions": 3,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=173"
+    },
+    {
+      "id": "federal-mortgage-bank-of-nigeria-act",
+      "shortName": "FEDERAL MORTGAGE BANK OF NIGERIA ACT",
+      "provisions": 15,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=174"
+    },
+    {
+      "id": "federal-polytechnics-act",
+      "shortName": "FEDERAL POLYTECHNICS ACT",
+      "provisions": 24,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=175"
+    },
+    {
+      "id": "federal-radio-corporation-of-nigeria-act",
+      "shortName": "FEDERAL RADIO CORPORATION OF NIGERIA ACT",
+      "provisions": 25,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=176"
+    },
+    {
+      "id": "federal-roads-maintenance-agency-establishment-etc-act",
+      "shortName": "FEDERAL ROADS MAINTENANCE AGENCY",
+      "provisions": 20,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=196"
+    },
+    {
+      "id": "federal-school-of-surveying-act",
+      "shortName": "FEDERAL SCHOOL OF SURVEYING ACT",
+      "provisions": 16,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=179"
+    },
+    {
+      "id": "federal-universities-of-agriculture-act",
+      "shortName": "FEDERAL UNIVERSITIES OF AGRICULTURE ACT",
+      "provisions": 16,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=180"
+    },
+    {
+      "id": "federal-universities-of-technology-act",
+      "shortName": "FEDERAL UNIVERSITIES OF TECHNOLOGY ACT",
+      "provisions": 15,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=181"
+    },
+    {
+      "id": "federal-urban-mass-transit-agency-act",
+      "shortName": "FEDERAL URBAN MASS TRANSIT AGENCY ACT",
+      "provisions": 12,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=182"
+    },
+    {
+      "id": "fertilizer-control-act",
+      "shortName": "FERTILIZER (CONTROL) ACT",
+      "provisions": 8,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=183"
+    },
+    {
+      "id": "finance-control-and-management-act",
+      "shortName": "FINANCE (CONTROL AND MANAGEMENT) ACT",
+      "provisions": 9,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=184"
+    },
+    {
+      "id": "financial-year-act",
+      "shortName": "FINANCIAL YEAR ACT",
+      "provisions": 1,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=185"
+    },
+    {
+      "id": "fire-service-act",
+      "shortName": "FIRE SERVICE ACT",
+      "provisions": 22,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=187"
+    },
+    {
+      "id": "flags-and-coats-of-arms-act",
+      "shortName": "FLAGS AND COATS OF ARMS ACT",
+      "provisions": 7,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=188"
+    },
+    {
+      "id": "flags-of-nigerian-ships-act",
+      "shortName": "FLAGS OF NIGERIAN SHIPS ACT",
+      "provisions": 5,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=189"
+    },
+    {
+      "id": "firearms-act",
+      "shortName": "FIREARMS ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/F28.pdf"
+    },
+    {
+      "id": "food-drugs-and-related-products-registration-etc-act",
+      "shortName": "FOOD, DRUGS AND RELATED PRODUCTS",
+      "provisions": 12,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=191"
+    },
+    {
+      "id": "foreign-exchange-monitoring-and-miscellaneous-provisions-act",
+      "shortName": "FOREIGN EXCHANGE (MONITORING AND",
+      "provisions": 16,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=192"
+    },
+    {
+      "id": "foreign-judgments-reciprocal-enforcement-act",
+      "shortName": "FOREIGN JUDGMENTS (RECIPROCAL",
+      "provisions": 9,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=193"
+    },
+    {
+      "id": "gaming-machines-prohibition-act",
+      "shortName": "GAMING MACHINES (PROHIBITION) ACT",
+      "provisions": 4,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=150"
+    },
+    {
+      "id": "general-loan-and-stock-act",
+      "shortName": "GENERAL LOAN AND STOCK ACT",
+      "provisions": 17,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=151"
+    },
+    {
+      "id": "geneva-conventions-act",
+      "shortName": "GENEVA CONVENTIONS ACT",
+      "provisions": 10,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=152"
+    },
+    {
+      "id": "government-promissory-notes-act",
+      "shortName": "GOVERNMENT PROMISSORY NOTES ACT",
+      "provisions": 14,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=153"
+    },
+    {
+      "id": "food-and-drugs-act",
+      "shortName": "FOOD AND DRUGS ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/F32.pdf"
+    },
+    {
+      "id": "health-records-officers-registration-etc-act",
+      "shortName": "HEALTH RECORDS OFFICERS (REGISTRATION,",
+      "provisions": 15,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=155"
+    },
+    {
+      "id": "high-court-of-the-federal-capital-territory-abuja-number-of-judges-act",
+      "shortName": "HIGH COURT OF THE FEDERAL CAPITAL",
+      "provisions": 4,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=159"
+    },
+    {
+      "id": "immigration-and-prisons-services-board-act",
+      "shortName": "IMMIGRATION AND PRISONS SERVICES BOARD",
+      "provisions": 7,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=199"
+    },
+    {
+      "id": "harmful-waste-special-criminal-provisions-etc-act",
+      "shortName": "HARMFUL WASTE (SPECIAL CRIMINAL",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/H1.pdf"
+    },
+    {
+      "id": "hides-and-skins-act",
+      "shortName": "HIDES AND SKINS ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/H3.pdf"
+    },
+    {
+      "id": "hire-purchase-act",
+      "shortName": "HIRE-PURCHASE ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/H4.pdf"
+    },
+    {
+      "id": "hydrocarbon-oil-refineries-act",
+      "shortName": "HYDROCARBON OIL REFINERIES ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/H5.pdf"
+    },
+    {
+      "id": "immigration-act",
+      "shortName": "IMMIGRATION ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/I1.pdf"
+    },
+    {
+      "id": "import-prohibition-act",
+      "shortName": "IMPORT (PROHIBITION) ACT",
+      "provisions": 2,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=200"
+    },
+    {
+      "id": "income-tax-authorised-communications-act",
+      "shortName": "INCOME TAX (AUTHORISED COMMUNICATIONS)",
+      "provisions": 3,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=201"
+    },
+    {
+      "id": "indian-hemp-act",
+      "shortName": "INDIAN HEMP ACT",
+      "provisions": 10,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=202"
+    },
+    {
+      "id": "industrial-development-income-tax-relief-act",
+      "shortName": "INDUSTRIAL DEVELOPMENT (INCOME TAX",
+      "provisions": 13,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=203"
+    },
+    {
+      "id": "industrial-training-fund-act",
+      "shortName": "INDUSTRIAL TRAINING FUND ACT",
+      "provisions": 13,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=205"
+    },
+    {
+      "id": "inland-fisheries-act",
+      "shortName": "INLAND FISHERIES ACT",
+      "provisions": 15,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=206"
+    },
+    {
+      "id": "industrial-inspectorate-act",
+      "shortName": "INDUSTRIAL INSPECTORATE ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/I8.pdf"
+    },
+    {
+      "id": "infrastructure-concession-regulatory-commission-establishment-etc",
+      "shortName": "INFRASTRUCTURE CONCESSION REGULATORY",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/INFRASTRUCTURE%20CONCESSION%20REGULATORY%20COMMISSION%20_ESTABLISHMENT,%20ETC.pdf"
+    },
+    {
+      "id": "institute-for-peace-and-conflict-resolution-establishment-act",
+      "shortName": "INSTITUTE FOR PEACE AND CONFLICT",
+      "provisions": 35,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=222"
+    },
+    {
+      "id": "institute-of-chartered-accountants-of-nigeria-act",
+      "shortName": "INSTITUTE OF CHARTERED ACCOUNTANTS OF",
+      "provisions": 14,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=207"
+    },
+    {
+      "id": "institute-of-chartered-secretaries-and-administrators-of-nigeria-act",
+      "shortName": "INSTITUTE OF CHARTERED SECRETARIES AND",
+      "provisions": 7,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=209"
+    },
+    {
+      "id": "institute-of-personnel-management-of-nigeria-act",
+      "shortName": "INSTITUTE OF PERSONNEL MANAGEMENT OF",
+      "provisions": 13,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=210"
+    },
+    {
+      "id": "internal-loans-rehabilitation-reconstruction-and-development-act",
+      "shortName": "INTERNAL LOANS (REHABILITATION,",
+      "provisions": 0,
+      "status": "no_provisions",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=214"
+    },
+    {
+      "id": "institute-of-chartered-chemists-of-nigeria-act",
+      "shortName": "INSTITUTE OF CHARTERED CHEMISTS OF",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/I12.pdf"
+    },
+    {
+      "id": "institute-of-public-analysts-of-nigeria-act",
+      "shortName": "INSTITUTE OF PUBLIC ANALYSTS OF NIGERIA",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/INSTITUTE%20OF%20PUBLIC%20ANALYSTS%20OF%20NIGERIA%20ACT.pdf"
+    },
+    {
+      "id": "insurance-act",
+      "shortName": "INSURANCE ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/I17.pdf"
+    },
+    {
+      "id": "internal-loans-act",
+      "shortName": "INTERNAL LOANS ACT",
+      "provisions": 0,
+      "status": "no_provisions",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=213"
+    },
+    {
+      "id": "international-centre-for-settlement-of-investment-disputes-enforcement-of-awards",
+      "shortName": "INTERNATIONAL CENTRE FOR SETTLEMENT OF",
+      "provisions": 0,
+      "status": "no_provisions",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=215"
+    },
+    {
+      "id": "international-financial-organisations-act",
+      "shortName": "INTERNATIONAL FINANCIAL ORGANISATIONS",
+      "provisions": 8,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=216"
+    },
+    {
+      "id": "international-institute-of-tropical-agriculture-act",
+      "shortName": "INTERNATIONAL INSTITUTE OF TROPICAL",
+      "provisions": 7,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=217"
+    },
+    {
+      "id": "international-convention-for-the-prevention-of-pollution-from-ships-1973-and-197",
+      "shortName": "INTERNATIONAL CONVENTION FOR THE",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/I28.pdf"
+    },
+    {
+      "id": "international-convention-for-the-safety-of-life-at-sea-ratification-and-enforcem",
+      "shortName": "INTERNATIONAL CONVENTION FOR THE SAFETY",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/I26.pdf"
+    },
+    {
+      "id": "international-convention-on-civil-liability-for-oil-pollution-damage-ratificatio",
+      "shortName": "INTERNATIONAL CONVENTION ON CIVIL",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/INTERNATIONAL%20CONVENTION%20ON%20CIVIL%20LIABILITY%20FOR%20OIL%20POLLUTION%20DAMAGE%20(RATIFICATION%20AND%20ENFORCEMENT)%20ACT.pdf"
+    },
+    {
+      "id": "international-convention-on-the-establishment-of-an-international-fund-for-compe",
+      "shortName": "INTERNATIONAL CONVENTION ON THE",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/INTERNATIONAL%20CONVENTION.pdf"
+    },
+    {
+      "id": "interpretation-act",
+      "shortName": "INTERPRETATION ACT",
+      "provisions": 7,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=218"
+    },
+    {
+      "id": "irrua-specialist-teaching-hospital-act",
+      "shortName": "IRRUA SPECIALIST TEACHING HOSPITAL ACT",
+      "provisions": 1,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=220"
+    },
+    {
+      "id": "joint-admissions-and-matriculation-board-act",
+      "shortName": "JOINT ADMISSIONS AND MATRICULATION",
+      "provisions": 16,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=197"
+    },
+    {
+      "id": "lagos-port-operations-special-provisions-act",
+      "shortName": "LAGOS PORT OPERATIONS (SPECIAL",
+      "provisions": 5,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=226"
+    },
+    {
+      "id": "lagos-university-teaching-hospital-act",
+      "shortName": "LAGOS UNIVERSITY TEACHING HOSPITAL ACT",
+      "provisions": 1,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=227"
+    },
+    {
+      "id": "investments-and-securities-act",
+      "shortName": "INVESTMENTS AND SECURITIES ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/I24.pdf"
+    },
+    {
+      "id": "labour-act",
+      "shortName": "LABOUR ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/L1.pdf"
+    },
+    {
+      "id": "lagos-international-trade-fair-complex-management-board-act",
+      "shortName": "LAGOS INTERNATIONAL TRADE FAIR COMPLEX",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/LAGOS%20INTERNATIONAL%20TRADE%20FAIR%20COMPLEX%20MANAGEMENT%20BOARD%20ACT.pdf"
+    },
+    {
+      "id": "land-use-act",
+      "shortName": "LAND USE ACT",
+      "provisions": 49,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=228"
+    },
+    {
+      "id": "land-use-act-validation-of-certain-laws-etc-act",
+      "shortName": "LAND USE ACT (VALIDATION OF CERTAIN",
+      "provisions": 1,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=229"
+    },
+    {
+      "id": "lands-title-vesting-etc-act",
+      "shortName": "LANDS (TITLE VESTING, ETC.) ACT",
+      "provisions": 6,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=230"
+    },
+    {
+      "id": "law-officers-act",
+      "shortName": "LAW OFFICERS ACT",
+      "provisions": 0,
+      "status": "no_provisions",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=231"
+    },
+    {
+      "id": "legal-aid-act",
+      "shortName": "LEGAL AID ACT",
+      "provisions": 18,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=232"
+    },
+    {
+      "id": "legal-education-consolidation-etc-act",
+      "shortName": "LEGAL EDUCATION (CONSOLIDATION, ETC.)",
+      "provisions": 7,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=233"
+    },
+    {
+      "id": "legislative-houses-powers-and-privileges-act",
+      "shortName": "LEGISLATIVE HOUSES (POWERS AND",
+      "provisions": 27,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=235"
+    },
+    {
+      "id": "legal-practitioners-act",
+      "shortName": "LEGAL PRACTITIONERS ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/L11.pdf"
+    },
+    {
+      "id": "librarians-registration-etc-council-of-nigeria-act",
+      "shortName": "LIBRARIANS (REGISTRATION, ETC.) COUNCIL",
+      "provisions": 18,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=236"
+    },
+    {
+      "id": "live-fish-control-of-importation-act",
+      "shortName": "LIVE FISH (CONTROL OF IMPORTATION) ACT",
+      "provisions": 3,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=237"
+    },
+    {
+      "id": "loan-act",
+      "shortName": "LOAN ACT",
+      "provisions": 0,
+      "status": "no_provisions",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=238"
+    },
+    {
+      "id": "local-loans-registered-stock-and-securities-act",
+      "shortName": "LOCAL LOANS (REGISTERED STOCK AND",
+      "provisions": 42,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=240"
+    },
+    {
+      "id": "marine-insurance-act",
+      "shortName": "MARINE INSURANCE ACT",
+      "provisions": 87,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=242"
+    },
+    {
+      "id": "maritime-academy-of-nigeria-act",
+      "shortName": "MARITIME ACADEMY OF NIGERIA ACT",
+      "provisions": 18,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=243"
+    },
+    {
+      "id": "maritime-operations-co-ordinating-board-act",
+      "shortName": "MARITIME OPERATIONS CO-ORDINATING BOARD",
+      "provisions": 8,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=244"
+    },
+    {
+      "id": "marketing-breast-milk-substitutes-act",
+      "shortName": "MARKETING (BREAST-MILK SUBSTITUTES) ACT",
+      "provisions": 8,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=245"
+    },
+    {
+      "id": "medical-laboratory-science-council-of-nigeria-act",
+      "shortName": "MEDICAL LABORATORY SCIENCE COUNCIL OF",
+      "provisions": 28,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=264"
+    },
+    {
+      "id": "medical-rehabilitation-therapists-registration-etc-act",
+      "shortName": "MEDICAL REHABILITATION THERAPISTS",
+      "provisions": 13,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=249"
+    },
+    {
+      "id": "merchandise-marks-act",
+      "shortName": "MERCHANDISE MARKS ACT",
+      "provisions": 11,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=250"
+    },
+    {
+      "id": "mines-and-quarries-control-of-buildings-etc-act",
+      "shortName": "MINES AND QUARRIES (CONTROL OF",
+      "provisions": 2,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=252"
+    },
+    {
+      "id": "ministers-statutory-powers-and-duties-miscellaneous-provisions-act",
+      "shortName": "MINISTERS' STATUTORY POWERS AND DUTIES",
+      "provisions": 5,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=253"
+    },
+    {
+      "id": "marriage-act",
+      "shortName": "MARRIAGE ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/M6.pdf"
+    },
+    {
+      "id": "matrimonial-causes-act",
+      "shortName": "MATRIMONIAL CAUSES ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/M7.pdf"
+    },
+    {
+      "id": "merchant-shipping-act",
+      "shortName": "MERCHANT SHIPPING ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/M11.pdf"
+    },
+    {
+      "id": "ministry-of-finance-incorporated-act",
+      "shortName": "MINISTRY OF FINANCE INCORPORATED ACT",
+      "provisions": 3,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=254"
+    },
+    {
+      "id": "minor-offences-miscellaneous-provisions-act",
+      "shortName": "MINOR OFFENCES (MISCELLANEOUS",
+      "provisions": 3,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=255"
+    },
+    {
+      "id": "miscellaneous-offences-act",
+      "shortName": "MISCELLANEOUS OFFENCES ACT",
+      "provisions": 3,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=256"
+    },
+    {
+      "id": "money-laundering-prohibition-act",
+      "shortName": "MONEY LAUNDERING (PROHIBITION) ACT",
+      "provisions": 15,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=257"
+    },
+    {
+      "id": "monitoring-of-revenue-alloca-tion-to-local-governments-act",
+      "shortName": "MONITORING OF REVENUE ALLOCA TION TO",
+      "provisions": 8,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=265"
+    },
+    {
+      "id": "mortgage-institutions-act",
+      "shortName": "MORTGAGE INSTITUTIONS ACT",
+      "provisions": 12,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=258"
+    },
+    {
+      "id": "motor-spirit-returns-act",
+      "shortName": "MOTOR SPIRIT (RETURNS) ACT",
+      "provisions": 16,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=259"
+    },
+    {
+      "id": "motor-vehicles-prohibition-of-tinted-glass-act",
+      "shortName": "MOTOR VEHICLES (PROHIBITION OF TINTED",
+      "provisions": 5,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=260"
+    },
+    {
+      "id": "motor-vehicles-third-party-liability-insurance-ecowas-brown-card-scheme-act",
+      "shortName": "MOTOR VEHICLES (THIRD PARTY LIABILITY",
+      "provisions": 4,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=262"
+    },
+    {
+      "id": "mutual-assistance-in-criminal-matters-within-the-commonwealth-enactment-and-enfo",
+      "shortName": "MUTUAL ASSISTANCE IN CRIMINAL MATTERS",
+      "provisions": 27,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=263"
+    },
+    {
+      "id": "national-agency-for-population-programmes-and-development-act",
+      "shortName": "NATIONAL AGENCY FOR POPULATION",
+      "provisions": 21,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=267"
+    },
+    {
+      "id": "national-agency-for-science-and-engineering-infrastructure-act",
+      "shortName": "NATIONAL AGENCY FOR SCIENCE AND",
+      "provisions": 35,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=268"
+    },
+    {
+      "id": "national-agricultural-land-development-authority-act",
+      "shortName": "NATIONAL AGRICULTURAL LAND DEVELOPMENT",
+      "provisions": 20,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=269"
+    },
+    {
+      "id": "national-agricultural-seeds-act",
+      "shortName": "NATIONAL AGRICULTURAL SEEDS ACT",
+      "provisions": 38,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=270"
+    },
+    {
+      "id": "motor-vehicles-third-party-insurance-act",
+      "shortName": "MOTOR VEHICLES (THIRD PARTY INSURANCE)",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/M22.pdf"
+    },
+    {
+      "id": "national-agency-for-food-and-drug-administration-and-control-act",
+      "shortName": "NATIONAL AGENCY FOR FOOD AND DRUG",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/N1.pdf"
+    },
+    {
+      "id": "national-archives-act",
+      "shortName": "NATIONAL ARCHIVES ACT",
+      "provisions": 49,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=271"
+    },
+    {
+      "id": "national-assembly-service-commission-act",
+      "shortName": "NATIONAL ASSEMBLY SERVICE COMMISSION ACT",
+      "provisions": 18,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=272"
+    },
+    {
+      "id": "national-automotive-council-act",
+      "shortName": "NATIONAL AUTOMOTIVE COUNCIL ACT",
+      "provisions": 15,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=273"
+    },
+    {
+      "id": "national-board-for-technical-education-act",
+      "shortName": "NATIONAL BOARD FOR TECHNICAL EDUCATION",
+      "provisions": 17,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=274"
+    },
+    {
+      "id": "national-boundary-commission-establishment-act",
+      "shortName": "NATIONAL BOUNDARY COMMISSION",
+      "provisions": 39,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=275"
+    },
+    {
+      "id": "national-broadcasting-commission-act",
+      "shortName": "NATIONAL BROADCASTING COMMISSION ACT",
+      "provisions": 25,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=276"
+    },
+    {
+      "id": "national-business-and-technical-examinations-board-act",
+      "shortName": "NATIONAL BUSINESS AND TECHNICAL",
+      "provisions": 21,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=277"
+    },
+    {
+      "id": "national-centre-for-agricultural-mechanisation-act",
+      "shortName": "NATIONAL CENTRE FOR AGRICULTURAL",
+      "provisions": 20,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=278"
+    },
+    {
+      "id": "national-centre-for-economic-management-and-administration-act",
+      "shortName": "NATIONAL CENTRE FOR ECONOMIC MANAGEMENT",
+      "provisions": 16,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=279"
+    },
+    {
+      "id": "national-centre-for-women-development-act",
+      "shortName": "NATIONAL CENTRE FOR WOMEN DEVELOPMENT",
+      "provisions": 23,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=280"
+    },
+    {
+      "id": "national-commission-for-colleges-of-education-act",
+      "shortName": "NATIONAL COMMISSION FOR COLLEGES OF",
+      "provisions": 18,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=281"
+    },
+    {
+      "id": "national-commission-for-mass-literacy-adult-and-non-formal-education-act",
+      "shortName": "NATIONAL COMMISSION FOR MASS LITERACY,",
+      "provisions": 20,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=282"
+    },
+    {
+      "id": "national-commission-for-nomadic-education-act",
+      "shortName": "NATIONAL COMMISSION FOR NOMADIC",
+      "provisions": 18,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=284"
+    },
+    {
+      "id": "national-commission-for-refugees-etc-act",
+      "shortName": "NATIONAL COMMISSION FOR REFUGEES, ETC.",
+      "provisions": 19,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=285"
+    },
+    {
+      "id": "national-commission-for-museums-and-monuments-act",
+      "shortName": "NATIONAL COMMISSION FOR MUSEUMS AND",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/N19.pdf"
+    },
+    {
+      "id": "national-commission-for-women-act",
+      "shortName": "NATIONAL COMMISSION FOR WOMEN ACT",
+      "provisions": 22,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=287"
+    },
+    {
+      "id": "national-committee-on-geographical-names-act",
+      "shortName": "NATIONAL COMMITTEE ON GEOGRAPHICAL",
+      "provisions": 10,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=288"
+    },
+    {
+      "id": "national-council-for-arts-and-culture-act",
+      "shortName": "NATIONAL COUNCIL FOR ARTS AND CULTURE",
+      "provisions": 15,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=289"
+    },
+    {
+      "id": "national-council-of-nigerian-vision-establishment-etc-act",
+      "shortName": "NATIONAL COUNCIL OF NIGERIAN VISION",
+      "provisions": 22,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=290"
+    },
+    {
+      "id": "national-crop-varieties-and-livestock-breeds-registration-etc-act",
+      "shortName": "NATIONAL CROP VARIETIES AND LIVESTOCK",
+      "provisions": 10,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=291"
+    },
+    {
+      "id": "national-directorate-of-employment-act",
+      "shortName": "NATIONAL DIRECTORATE OF EMPLOYMENT ACT",
+      "provisions": 19,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=292"
+    },
+    {
+      "id": "national-deposit-insurance-corporation-act",
+      "shortName": "NATIONAL DEPOSIT INSURANCE CORPORATION",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/N102.pdf"
+    },
+    {
+      "id": "national-economic-intelligence-committee-establishment-etc-act",
+      "shortName": "NATIONAL ECONOMIC INTELLIGENCE",
+      "provisions": 15,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=295"
+    },
+    {
+      "id": "national-economic-reconstruction-fund-act",
+      "shortName": "NATIONAL ECONOMIC RECONSTRUCTION FUND",
+      "provisions": 11,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=296"
+    },
+    {
+      "id": "national-emergency-management-agency-establishment-etc-act",
+      "shortName": "NATIONAL EMERGENCY MANAGEMENT",
+      "provisions": 18,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=294"
+    },
+    {
+      "id": "national-endowment-for-the-arts-act",
+      "shortName": "NATIONAL ENDOWMENT FOR THE ARTS ACT",
+      "provisions": 14,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=298"
+    },
+    {
+      "id": "national-examinations-council-neco-establishment-act",
+      "shortName": "NATIONAL EXAMINATIONS COUNCIL (NECO)",
+      "provisions": 30,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=299"
+    },
+    {
+      "id": "national-drug-formulary-and-essential-drugs-list-act",
+      "shortName": "NATIONAL DRUG FORMULARY AND ESSENTIAL",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/N29.pdf"
+    },
+    {
+      "id": "national-drug-law-enforcement-agency-act",
+      "shortName": "NATIONAL DRUG LAW ENFORCEMENT AGENCY ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/NATIONAL%20DRUG%20LAW%20ENFORCEMENT%20AGENCY%20ACT.pdf"
+    },
+    {
+      "id": "national-eye-centre-act",
+      "shortName": "NATIONAL EYE CENTRE ACT",
+      "provisions": 23,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=300"
+    },
+    {
+      "id": "national-fertilizer-board-act",
+      "shortName": "NATIONAL FERTILIZER BOARD ACT",
+      "provisions": 11,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=301"
+    },
+    {
+      "id": "national-gallery-of-art-act",
+      "shortName": "NATIONAL GALLERY OF ART ACT",
+      "provisions": 3,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=303"
+    },
+    {
+      "id": "national-hajj-commission-of-nigeria-nahcon",
+      "shortName": "NATIONAL HAJJ COMMISSION OF NIGERIA",
+      "provisions": 21,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=409"
+    },
+    {
+      "id": "national-health-insurance-scheme-act",
+      "shortName": "NATIONAL HEALTH INSURANCE SCHEME ACT",
+      "provisions": 4,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=304"
+    },
+    {
+      "id": "national-film-and-video-censors-board-act",
+      "shortName": "NATIONAL FILM AND VIDEO CENSORS BOARD",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/N40.pdf"
+    },
+    {
+      "id": "national-honours-act",
+      "shortName": "NATIONAL HONOURS ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/N43.pdf"
+    },
+    {
+      "id": "national-hospital-for-women-and-children-abuja-establishment-etc-act",
+      "shortName": "NATIONAL HOSPITAL FOR WOMEN AND",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/N44.pdf"
+    },
+    {
+      "id": "national-human-rights-commission-act",
+      "shortName": "NATIONAL HUMAN RIGHTS COMMISSION ACT",
+      "provisions": 4,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=308"
+    },
+    {
+      "id": "national-identity-management-commission-act",
+      "shortName": "NATIONAL IDENTITY MANAGEMENT COMMISSION",
+      "provisions": 31,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=410"
+    },
+    {
+      "id": "national-industrial-court-act",
+      "shortName": "NATIONAL INDUSTRIAL COURT ACT",
+      "provisions": 49,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=411"
+    },
+    {
+      "id": "national-information-technology-development-agency-act",
+      "shortName": "NATIONAL INFORMATION TECHNOLOGY",
+      "provisions": 33,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=412"
+    },
+    {
+      "id": "national-inland-waterways-authority-act",
+      "shortName": "NATIONAL INLAND WATERWAYS AUTHORITY ACT",
+      "provisions": 6,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=309"
+    },
+    {
+      "id": "national-institute-for-cultural-orientation-act",
+      "shortName": "NATIONAL INSTITUTE FOR CULTURAL",
+      "provisions": 4,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=310"
+    },
+    {
+      "id": "national-institute-for-labour-studles-act",
+      "shortName": "NATIONAL INSTITUTE FOR LABOUR STUDlES",
+      "provisions": 3,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=311"
+    },
+    {
+      "id": "national-housing-fund-act",
+      "shortName": "NATIONAL HOUSING FUND ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/N45.pdf"
+    },
+    {
+      "id": "national-institute-for-nigerian-languages-act",
+      "shortName": "NATIONAL INSTITUTE FOR NIGERIAN",
+      "provisions": 5,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=312"
+    },
+    {
+      "id": "national-institute-for-policy-and-strategic-studies-act",
+      "shortName": "NATIONAL INSTITUTE FOR POLICY AND",
+      "provisions": 4,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=313"
+    },
+    {
+      "id": "national-institute-for-sports-act",
+      "shortName": "NATIONAL INSTITUTE FOR SPORTS ACT",
+      "provisions": 4,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=314"
+    },
+    {
+      "id": "national-institute-of-marketing-of-nigeria-act",
+      "shortName": "NATIONAL INSTITUTE OF MARKETING OF",
+      "provisions": 24,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=400"
+    },
+    {
+      "id": "national-insurance-commission-act",
+      "shortName": "NATIONAL INSURANCE COMMISSION ACT",
+      "provisions": 15,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=315"
+    },
+    {
+      "id": "national-insurance-corporation-of-nigeria-act",
+      "shortName": "NATIONAL INSURANCE CORPORATION OF",
+      "provisions": 6,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=316"
+    },
+    {
+      "id": "national-judicial-institute-act",
+      "shortName": "NATIONAL JUDICIAL INSTITUTE ACT",
+      "provisions": 3,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=317"
+    },
+    {
+      "id": "national-library-act",
+      "shortName": "NATIONAL LIBRARY ACT",
+      "provisions": 8,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=318"
+    },
+    {
+      "id": "national-lottery-act",
+      "shortName": "NATIONAL LOTTERY ACT",
+      "provisions": 56,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=401"
+    },
+    {
+      "id": "national-manpower-board-act",
+      "shortName": "NATIONAL MANPOWER BOARD ACT",
+      "provisions": 5,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=319"
+    },
+    {
+      "id": "national-mathematical-centre-act",
+      "shortName": "NATIONAL MATHEMATICAL CENTRE ACT",
+      "provisions": 5,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=320"
+    },
+    {
+      "id": "national-medical-college-act",
+      "shortName": "NATIONAL MEDICAL COLLEGE ACT",
+      "provisions": 7,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=321"
+    },
+    {
+      "id": "national-metallurgical-development-centre-act",
+      "shortName": "NATIONAL METALLURGICAL DEVELOPMENT",
+      "provisions": 3,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=322"
+    },
+    {
+      "id": "national-minimum-wage-act",
+      "shortName": "NATIONAL MINIMUM WAGE ACT",
+      "provisions": 1,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=323"
+    },
+    {
+      "id": "national-office-for-technology-acquisition-and-promotion-act",
+      "shortName": "NATIONAL OFFICE FOR TECHNOLOGY",
+      "provisions": 8,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=324"
+    },
+    {
+      "id": "national-oil-spill-detection-response-agency",
+      "shortName": "NATIONAL OIL SPILL DETECTION RESPONSE",
+      "provisions": 28,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=413"
+    },
+    {
+      "id": "national-open-university-act",
+      "shortName": "NATIONAL OPEN UNIVERSITY ACT",
+      "provisions": 3,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=325"
+    },
+    {
+      "id": "national-orientation-agency-act",
+      "shortName": "NATIONAL ORIENTATION AGENCY ACT",
+      "provisions": 7,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=326"
+    },
+    {
+      "id": "national-planning-commission-act",
+      "shortName": "NATIONAL PLANNING COMMISSION ACT",
+      "provisions": 4,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=328"
+    },
+    {
+      "id": "national-primary-health-care-development-agency-act",
+      "shortName": "NATIONAL PRIMARY HEALTH CARE",
+      "provisions": 5,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=331"
+    },
+    {
+      "id": "national-productivity-centre-act",
+      "shortName": "NATIONAL PRODUCTIVITY CENTRE ACT",
+      "provisions": 3,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=332"
+    },
+    {
+      "id": "national-park-service-act",
+      "shortName": "NATIONAL PARK SERVICE ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/N65.pdf"
+    },
+    {
+      "id": "national-population-commission-act",
+      "shortName": "NATIONAL POPULATION COMMISSION ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/N67.pdf"
+    },
+    {
+      "id": "national-primary-education-commission-etc-act",
+      "shortName": "NATIONAL PRIMARY EDUCATION COMMISSION,",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/N68.pdf"
+    },
+    {
+      "id": "national-programme-on-immunisation-act",
+      "shortName": "NATIONAL PROGRAMME ON IMMUNISATION ACT",
+      "provisions": 6,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=333"
+    },
+    {
+      "id": "national-salaries-incomes-and-wages-commission-act",
+      "shortName": "NATIONAL SALARIES, INCOMES AND WAGES",
+      "provisions": 5,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=334"
+    },
+    {
+      "id": "national-secondary-education-commission-etc-act",
+      "shortName": "NATIONAL SECONDARY EDUCATION",
+      "provisions": 10,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=335"
+    },
+    {
+      "id": "national-security-agencies-act",
+      "shortName": "NATIONAL SECURITY AGENCIES ACT",
+      "provisions": 3,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=336"
+    },
+    {
+      "id": "national-steel-council-act",
+      "shortName": "NATIONAL STEEL COUNCIL ACT",
+      "provisions": 7,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=337"
+    },
+    {
+      "id": "national-steel-raw-materials-exploration-agency-act",
+      "shortName": "NATIONAL STEEL RAW MATERIALS",
+      "provisions": 7,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=338"
+    },
+    {
+      "id": "national-sugar-development-council-act",
+      "shortName": "NATIONAL SUGAR DEVELOPMENT COUNCIL ACT",
+      "provisions": 4,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=339"
+    },
+    {
+      "id": "national-teachers-institute-act",
+      "shortName": "NATIONAL TEACHERS' INSTITUTE ACT",
+      "provisions": 4,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=340"
+    },
+    {
+      "id": "national-theatre-and-the-national-troupe-of-nigeria-board-act",
+      "shortName": "NATIONAL THEATRE AND THE NATIONAL",
+      "provisions": 7,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=341"
+    },
+    {
+      "id": "national-universities-commission-act",
+      "shortName": "NATIONAL UNIVERSITIES COMMISSION ACT",
+      "provisions": 8,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=342"
+    },
+    {
+      "id": "national-war-college-act",
+      "shortName": "NATIONAL WAR COLLEGE ACT",
+      "provisions": 6,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=343"
+    },
+    {
+      "id": "national-water-resources-institute-act",
+      "shortName": "NATIONAL WATER RESOURCES INSTITUTE ACT",
+      "provisions": 4,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=344"
+    },
+    {
+      "id": "news-agency-of-nigeria-act",
+      "shortName": "NEWS AGENCY OF NIGERIA ACT",
+      "provisions": 2,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=345"
+    },
+    {
+      "id": "niger-delta-development-commission-establishment-etc-act",
+      "shortName": "NIGER-DELTA DEVELOPMENT COMMISSION",
+      "provisions": 3,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=346"
+    },
+    {
+      "id": "nigeria-christian-pilgrim-commission-act",
+      "shortName": "NIGERIA CHRISTIAN PILGRIM COMMISSION ACT",
+      "provisions": 21,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=414"
+    },
+    {
+      "id": "national-youth-service-corps-act",
+      "shortName": "NATIONAL YOUTH SERVICE CORPS ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/NATIONAL%20YOUTH%20SERVICE%20CORPS%20ACT.pdf"
+    },
+    {
+      "id": "nigeria-extractive-industries-transparency-initiative",
+      "shortName": "NIGERIA EXTRACTIVE INDUSTRIES",
+      "provisions": 21,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=415"
+    },
+    {
+      "id": "nigeria-lng-fiscal-incentives-guarantees-and-assurances-act",
+      "shortName": "NIGERIA LNG (FISCAL INCENTIVES,",
+      "provisions": 13,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=347"
+    },
+    {
+      "id": "nigeria-security-and-civil-defence-corps-act",
+      "shortName": "NIGERIA SECURITY AND CIVIL DEFENCE",
+      "provisions": 29,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=402"
+    },
+    {
+      "id": "nigeria-social-insurance-trust-fund-act",
+      "shortName": "NIGERIA SOCIAL INSURANCE TRUST FUND ACT",
+      "provisions": 8,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=348"
+    },
+    {
+      "id": "nigerian-accounting-standards-board-act",
+      "shortName": "NIGERIAN ACCOUNTING STANDARDS BOARD ACT",
+      "provisions": 32,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=403"
+    },
+    {
+      "id": "nigerian-airspace-management-agency-establishment-etc-act",
+      "shortName": "NIGERIAN AIRSPACE MANAGEMENT AGENCY",
+      "provisions": 6,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=349"
+    },
+    {
+      "id": "nigeria-export-processing-zones-act",
+      "shortName": "NIGERIA EXPORT PROCESSING ZONES ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/N107.pdf"
+    },
+    {
+      "id": "nigerian-agricultural-insurance-corporation-act",
+      "shortName": "NIGERIAN AGRICULTURAL INSURANCE",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/Nigerian%20Agricultural%20Insurance%20Corporation%20Act.pdf"
+    },
+    {
+      "id": "nigerian-atomic-energy-commission-act",
+      "shortName": "NIGERIAN ATOMIC ENERGY COMMISSION ACT",
+      "provisions": 2,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=350"
+    },
+    {
+      "id": "nigerian-bank-for-commerce-and-industry-act",
+      "shortName": "NIGERIAN BANK FOR COMMERCE AND INDUSTRY",
+      "provisions": 8,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=351"
+    },
+    {
+      "id": "nigerian-childrens-trust-fund-act",
+      "shortName": "NIGERIAN CHILDREN'S TRUST FUND ACT",
+      "provisions": 3,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=352"
+    },
+    {
+      "id": "nigerian-co-operative-societies-act",
+      "shortName": "NIGERIAN CO-OPERATIVE SOCIETIES ACT",
+      "provisions": 7,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=356"
+    },
+    {
+      "id": "nigerian-coal-corporation-act",
+      "shortName": "NIGERIAN COAL CORPORATION ACT",
+      "provisions": 11,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=353"
+    },
+    {
+      "id": "nigerian-college-of-aviation-technology-act",
+      "shortName": "NIGERIAN COLLEGE OF AVIATION TECHNOLOGY",
+      "provisions": 3,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=354"
+    },
+    {
+      "id": "nigerian-communications-act",
+      "shortName": "NIGERIAN COMMUNICATIONS ACT",
+      "provisions": 9,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=355"
+    },
+    {
+      "id": "nigerian-council-for-management-development-act",
+      "shortName": "NIGERIAN COUNCIL FOR MANAGEMENT",
+      "provisions": 6,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=357"
+    },
+    {
+      "id": "nigerian-council-of-registered-insurance-brokers-act",
+      "shortName": "NIGERIAN COUNCIL OF REGISTERED",
+      "provisions": 32,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=404"
+    },
+    {
+      "id": "nigerian-customs-service-board-act",
+      "shortName": "NIGERIAN CUSTOMS SERVICE BOARD ACT",
+      "provisions": 4,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=358"
+    },
+    {
+      "id": "nigerian-defence-academy-act",
+      "shortName": "NIGERIAN DEFENCE ACADEMY ACT",
+      "provisions": 13,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=359"
+    },
+    {
+      "id": "nigerian-education-bank-act",
+      "shortName": "NIGERIAN EDUCATION BANK ACT",
+      "provisions": 29,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=361"
+    },
+    {
+      "id": "nigerian-export-promotion-council-act",
+      "shortName": "NIGERIAN EXPORT PROMOTION COUNCIL ACT",
+      "provisions": 14,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=365"
+    },
+    {
+      "id": "nigerian-export-import-bank-act",
+      "shortName": "NIGERIAN EXPORT-IMPORT BANK ACT",
+      "provisions": 17,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=363"
+    },
+    {
+      "id": "nigerian-film-corporation-act",
+      "shortName": "NIGERIAN FILM CORPORATION ACT",
+      "provisions": 14,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=366"
+    },
+    {
+      "id": "nigerian-football-association-act",
+      "shortName": "NIGERIAN FOOTBALL ASSOCIATION ACT",
+      "provisions": 23,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=367"
+    },
+    {
+      "id": "nigerian-industrial-development-bank-guarantee-act",
+      "shortName": "NIGERIAN INDUSTRIAL DEVELOPMENT BANK",
+      "provisions": 3,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=368"
+    },
+    {
+      "id": "nigerian-institute-of-advanced-legal-studies-act",
+      "shortName": "NIGERIAN INSTITUTE OF ADVANCED LEGAL",
+      "provisions": 23,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=369"
+    },
+    {
+      "id": "nigerian-institute-of-animal-science-act",
+      "shortName": "NIGERIAN INSTITUTE OF ANIMAL SCIENCE ACT",
+      "provisions": 34,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=416"
+    },
+    {
+      "id": "nigerian-institute-of-international-affairs-act",
+      "shortName": "NIGERIAN INSTITUTE OF INTERNATIONAL",
+      "provisions": 17,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=370"
+    },
+    {
+      "id": "nigerian-institute-of-management-act",
+      "shortName": "NIGERIAN INSTITUTE OF MANAGEMENT ACT",
+      "provisions": 20,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=405"
+    },
+    {
+      "id": "nigerian-institute-of-public-relations-practitioners-act",
+      "shortName": "NIGERIAN INSTITUTE OF PUBLIC RELATIONS",
+      "provisions": 21,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=371"
+    },
+    {
+      "id": "nigerian-institute-of-science-laboratory-technology-act",
+      "shortName": "NIGERIAN INSTITUTE OF SCIENCE",
+      "provisions": 21,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=406"
+    },
+    {
+      "id": "nigerian-institute-of-social-and-economic-research-act",
+      "shortName": "NIGERIAN INSTITUTE OF SOCIAL AND",
+      "provisions": 13,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=372"
+    },
+    {
+      "id": "nigerian-institute-of-transport-technology-act",
+      "shortName": "NIGERIAN INSTITUTE OF TRANSPORT",
+      "provisions": 16,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=373"
+    },
+    {
+      "id": "nigerian-investment-promotion-commission-act",
+      "shortName": "NIGERIAN INVESTMENT PROMOTION",
+      "provisions": 31,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=374"
+    },
+    {
+      "id": "nigerian-law-reform-commission-act",
+      "shortName": "NIGERIAN LAW REFORM COMMISSION ACT",
+      "provisions": 15,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=375"
+    },
+    {
+      "id": "nigerian-legion-act",
+      "shortName": "NIGERIAN LEGION ACT",
+      "provisions": 13,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=376"
+    },
+    {
+      "id": "nigerian-maritime-administration-and-safety-agency-act",
+      "shortName": "NIGERIAN MARITIME ADMINISTRATION AND",
+      "provisions": 58,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=417"
+    },
+    {
+      "id": "nigerian-maritime-labour-act",
+      "shortName": "NIGERIAN MARITIME LABOUR ACT",
+      "provisions": 40,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=407"
+    },
+    {
+      "id": "nigerian-meteorological-agency",
+      "shortName": "NIGERIAN METEOROLOGICAL AGENCY",
+      "provisions": 39,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=408"
+    },
+    {
+      "id": "nigerian-minerals-and-mining-act",
+      "shortName": "NIGERIAN MINERALS AND MINING ACT",
+      "provisions": 158,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=418"
+    },
+    {
+      "id": "nigerian-mining-corporation-act",
+      "shortName": "NIGERIAN MINING CORPORATION ACT",
+      "provisions": 19,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=377"
+    },
+    {
+      "id": "nigerian-national-heroes-register-act",
+      "shortName": "NIGERIAN NATIONAL HEROES REGISTER ACT",
+      "provisions": 8,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=378"
+    },
+    {
+      "id": "nigerian-national-merit-award-act",
+      "shortName": "NIGERIAN NATIONAL MERIT AWARD ACT",
+      "provisions": 14,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=379"
+    },
+    {
+      "id": "nigerian-national-petroleum-corporation-projects-act",
+      "shortName": "NIGERIAN NATIONAL PETROLEUM CORPORATION",
+      "provisions": 4,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=381"
+    },
+    {
+      "id": "nigerian-national-petroleum-corporation-act",
+      "shortName": "NIGERIAN NATIONAL PETROLEUM CORPORATION",
+      "provisions": 23,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=380"
+    },
+    {
+      "id": "nigerian-postal-service-act",
+      "shortName": "NIGERIAN POSTAL SERVICE ACT",
+      "provisions": 62,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=383"
+    },
+    {
+      "id": "nigerian-press-council-act",
+      "shortName": "NIGERIAN PRESS COUNCIL ACT",
+      "provisions": 37,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=384"
+    },
+    {
+      "id": "nigerian-ports-authority-act",
+      "shortName": "NIGERIAN PORTS AUTHORITY ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/N126.pdf"
+    },
+    {
+      "id": "nigerian-red-cross-society-act",
+      "shortName": "NIGERIAN RED CROSS SOCIETY ACT",
+      "provisions": 9,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=386"
+    },
+    {
+      "id": "nigerian-reinsurance-corporation-act",
+      "shortName": "NIGERIAN REINSURANCE CORPORATION ACT",
+      "provisions": 17,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=387"
+    },
+    {
+      "id": "nigerian-research-institutes-act",
+      "shortName": "NIGERIAN RESEARCH INSTITUTES ACT",
+      "provisions": 8,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=388"
+    },
+    {
+      "id": "nigerian-shippers-council-act",
+      "shortName": "NIGERIAN SHIPPERS' COUNCIL ACT",
+      "provisions": 11,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=389"
+    },
+    {
+      "id": "nigerian-steel-development-authority-act",
+      "shortName": "NIGERIAN STEEL DEVELOPMENT AUTHORITY ACT",
+      "provisions": 12,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=390"
+    },
+    {
+      "id": "nigerian-television-authority-act",
+      "shortName": "NIGERIAN TELEVISION AUTHORITY ACT",
+      "provisions": 34,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=392"
+    },
+    {
+      "id": "nigerian-railway-corporation-act",
+      "shortName": "NIGERIAN RAILWAY CORPORATION ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/N129.pdf"
+    },
+    {
+      "id": "nigerian-technical-and-corps-act",
+      "shortName": "NIGERIAN TECHNICAL AND CORPS ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/N135.pdf"
+    },
+    {
+      "id": "nigerian-urban-and-regional-planning-act",
+      "shortName": "NIGERIAN URBAN AND REGIONAL PLANNING ACT",
+      "provisions": 86,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=394"
+    },
+    {
+      "id": "nnamdi-azikiwe-university-act",
+      "shortName": "NNAMDI AZIKIWE UNIVERSITY ACT",
+      "provisions": 30,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=395"
+    },
+    {
+      "id": "nnamdi-azikiwe-university-teaching-hospital-act",
+      "shortName": "NNAMDI AZIKIWE UNIVERSITY TEACHING",
+      "provisions": 5,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=396"
+    },
+    {
+      "id": "notaries-public-act",
+      "shortName": "NOTARIES PUBLIC ACT",
+      "provisions": 21,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=397"
+    },
+    {
+      "id": "nuclear-safety-and-radiation-protection-act",
+      "shortName": "NUCLEAR SAFETY AND RADIATION PROTECTION",
+      "provisions": 47,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=398"
+    },
+    {
+      "id": "nigerian-toursim-development-corporation-act",
+      "shortName": "NIGERIAN TOURSIM DEVELOPMENT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/N137.pdf"
+    },
+    {
+      "id": "nursing-and-midwifery-registration-etc-act",
+      "shortName": "NURSING AND MIDWIFERY (REGISTRATION,",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/N143.pdf"
+    },
+    {
+      "id": "oaths-act",
+      "shortName": "OATHS ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/O1.pdf"
+    },
+    {
+      "id": "obafemi-awolowo-university-transitional-provisions-act",
+      "shortName": "OBAFEMI AWOLOWO UNIVERSITY",
+      "provisions": 38,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=420"
+    },
+    {
+      "id": "off-shore-oil-revenues-registration-of-grants-act",
+      "shortName": "OFF-SHORE OIL REVENUES (REGISTRATION OF",
+      "provisions": 0,
+      "status": "no_provisions",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=422"
+    },
+    {
+      "id": "official-secrets-act",
+      "shortName": "OFFICIAL SECRETS ACT",
+      "provisions": 8,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=421"
+    },
+    {
+      "id": "oil-and-gas-export-free-zone-act",
+      "shortName": "OIL AND GAS EXPORT FREE ZONE ACT",
+      "provisions": 37,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=423"
+    },
+    {
+      "id": "oil-pipelines-act",
+      "shortName": "OIL PIPELINES ACT",
+      "provisions": 26,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=425"
+    },
+    {
+      "id": "optometrists-and-dispensing-opticians-registration-etc-act",
+      "shortName": "OPTOMETRISTS AND DISPENSING OPTICIANS",
+      "provisions": 18,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=427"
+    },
+    {
+      "id": "oil-in-navigable-waters-act",
+      "shortName": "OIL IN NAVIGABLE WATERS ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/O6.pdf"
+    },
+    {
+      "id": "oil-terminal-dues-act",
+      "shortName": "OIL TERMINAL DUES ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/O8.pdf"
+    },
+    {
+      "id": "orthopedic-hospitals-management-board-act",
+      "shortName": "ORTHOPEDIC HOSPITALS MANAGEMENT BOARD",
+      "provisions": 16,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=428"
+    },
+    {
+      "id": "oso-condensate-project-act",
+      "shortName": "OSO CONDENSATE PROJECT ACT",
+      "provisions": 1,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=429"
+    },
+    {
+      "id": "passport-miscellaneous-provisions-act",
+      "shortName": "PASSPORT (MISCELLANEOUS PROVISIONS) ACT",
+      "provisions": 4,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=430"
+    },
+    {
+      "id": "penal-code-northern-states-federal-provisions-act",
+      "shortName": "PENAL CODE (NORTHERN STATES) FEDERAL",
+      "provisions": 52,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=432"
+    },
+    {
+      "id": "pension-rights-of-judges-act",
+      "shortName": "PENSION RIGHTS OF JUDGES ACT",
+      "provisions": 3,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=434"
+    },
+    {
+      "id": "pensions-transfer-of-responsibility-united-kingdom-agreement-act",
+      "shortName": "PENSIONS (TRANSFER OF RESPONSIBILITY)",
+      "provisions": 2,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=435"
+    },
+    {
+      "id": "patents-and-designs-act",
+      "shortName": "PATENTS AND DESIGNS ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/P2.pdf"
+    },
+    {
+      "id": "pension-reform-act",
+      "shortName": "PENSION REFORM ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/P4.pdf"
+    },
+    {
+      "id": "peoples-bank-of-nigeria-act",
+      "shortName": "PEOPLE'S BANK OF NIGERIA ACT",
+      "provisions": 12,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=436"
+    },
+    {
+      "id": "pest-control-of-produce-special-powers-act",
+      "shortName": "PEST CONTROL OF PRODUCE (SPECIAL",
+      "provisions": 4,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=438"
+    },
+    {
+      "id": "petroleum-equalisation-fund-management-board-etc-act",
+      "shortName": "PETROLEUM EQUALISATION FUND (MANAGEMENT",
+      "provisions": 7,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=440"
+    },
+    {
+      "id": "petroleum-production-and-distribution-anti-sabotage-act",
+      "shortName": "PETROLEUM PRODUCTION AND DISTRIBUTION",
+      "provisions": 1,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=441"
+    },
+    {
+      "id": "petroleum-products-pricing-regulatory-agency-establishment-etc-act",
+      "shortName": "PETROLEUM PRODUCTS PRICING REGULATORY",
+      "provisions": 22,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=470"
+    },
+    {
+      "id": "petroleum-special-trust-fund-act",
+      "shortName": "PETROLEUM (SPECIAL) TRUST FUND ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/P14.pdf"
+    },
+    {
+      "id": "petroleum-act",
+      "shortName": "PETROLEUM ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/P10.pdf"
+    },
+    {
+      "id": "petroleum-profits-tax-act",
+      "shortName": "PETROLEUM PROFITS TAX ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/P13.pdf"
+    },
+    {
+      "id": "petroleum-technology-development-fund-act",
+      "shortName": "PETROLEUM TECHNOLOGY DEVELOPMENT FUND",
+      "provisions": 3,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=444"
+    },
+    {
+      "id": "petroleum-training-institute-act",
+      "shortName": "PETROLEUM TRAINING INSTITUTE ACT",
+      "provisions": 13,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=445"
+    },
+    {
+      "id": "pharmacists-council-of-nigeria-act",
+      "shortName": "PHARMACISTS COUNCIL OF NIGERIA ACT",
+      "provisions": 25,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=446"
+    },
+    {
+      "id": "piers-act",
+      "shortName": "PIERS ACT",
+      "provisions": 8,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=447"
+    },
+    {
+      "id": "population-activities-fund-act",
+      "shortName": "POPULATION ACTIVITIES FUND ACT",
+      "provisions": 18,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=449"
+    },
+    {
+      "id": "ports-related-offences-etc-act",
+      "shortName": "PORTS (RELATED OFFENCES, ETC.) ACT",
+      "provisions": 5,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=450"
+    },
+    {
+      "id": "posts-and-telecommunications-proceedings-act",
+      "shortName": "POSTS AND TELECOMMUNICATIONS",
+      "provisions": 1,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=451"
+    },
+    {
+      "id": "police-act",
+      "shortName": "POLICE ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/P19.pdf"
+    },
+    {
+      "id": "pre-shipment-inspection-of-exports-act",
+      "shortName": "PRE-SHIPMENT INSPECTION OF EXPORTS ACT",
+      "provisions": 24,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=452"
+    },
+    {
+      "id": "pre-shipment-inspection-of-imports-act",
+      "shortName": "PRE-SHIPMENT INSPECTION OF IMPORTS ACT",
+      "provisions": 14,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=453"
+    },
+    {
+      "id": "price-control-act",
+      "shortName": "PRICE CONTROL ACT",
+      "provisions": 14,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=455"
+    },
+    {
+      "id": "probates-re-sealing-act",
+      "shortName": "PROBATES (RE-SEALING) ACT",
+      "provisions": 8,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=458"
+    },
+    {
+      "id": "produce-enforcement-of-export-standards-act",
+      "shortName": "PRODUCE (ENFORCEMENT OF EXPORT",
+      "provisions": 27,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=459"
+    },
+    {
+      "id": "prevention-of-crimes-act",
+      "shortName": "PREVENTION OF CRIMES ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/P27.pdf"
+    },
+    {
+      "id": "prisons-act",
+      "shortName": "PRISONS ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/P29.pdf"
+    },
+    {
+      "id": "private-guard-companies-act",
+      "shortName": "PRIVATE GUARD COMPANIES ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/P30.pdf"
+    },
+    {
+      "id": "professional-bodies-special-provisions-act",
+      "shortName": "PROFESSIONAL BODIES (SPECIAL",
+      "provisions": 0,
+      "status": "no_provisions",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=460"
+    },
+    {
+      "id": "psychiatric-hospitals-management-board-act",
+      "shortName": "PSYCHIATRIC HOSPITALS MANAGEMENT BOARD",
+      "provisions": 17,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=461"
+    },
+    {
+      "id": "public-accounts-committee-act",
+      "shortName": "PUBLIC ACCOUNTS COMMITTEE ACT",
+      "provisions": 9,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=462"
+    },
+    {
+      "id": "public-accounts-implementation-tribunal-act",
+      "shortName": "PUBLIC ACCOUNTS IMPLEMENTATION TRIBUNAL",
+      "provisions": 13,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=463"
+    },
+    {
+      "id": "public-complaints-commission-act",
+      "shortName": "PUBLIC COMPLAINTS COMMISSION ACT",
+      "provisions": 9,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=464"
+    },
+    {
+      "id": "public-holidays-act",
+      "shortName": "PUBLIC HOLIDAYS ACT",
+      "provisions": 6,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=467"
+    },
+    {
+      "id": "public-enterprises-privatisation-and-commercialisation-act",
+      "shortName": "PUBLIC ENTERPRISES (PRIVATISATION AND",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/P38.pdf"
+    },
+    {
+      "id": "public-enterprises-regulatory-commission-act",
+      "shortName": "PUBLIC ENTERPRISES REGULATORY",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/P39.pdf"
+    },
+    {
+      "id": "public-officers-protection-act",
+      "shortName": "PUBLIC OFFICERS PROTECTION ACT",
+      "provisions": 0,
+      "status": "no_provisions",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=468"
+    },
+    {
+      "id": "quantity-surveyors-registration-etc-act",
+      "shortName": "QUANTITY SURVEYORS (REGISTRATION, ETC.)",
+      "provisions": 20,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=471"
+    },
+    {
+      "id": "radiographers-registration-etc-act",
+      "shortName": "RADIOGRAPHERS (REGISTRATION, ETC.) ACT",
+      "provisions": 27,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=473"
+    },
+    {
+      "id": "railway-loan-international-bank-act",
+      "shortName": "RAILWAY LOAN (INTERNATIONAL BANK) ACT",
+      "provisions": 8,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=474"
+    },
+    {
+      "id": "raw-materials-research-and-development-council-act",
+      "shortName": "RAW MATERIALS RESEARCH AND DEVELOPMENT",
+      "provisions": 15,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=475"
+    },
+    {
+      "id": "public-order-act",
+      "shortName": "PUBLIC ORDER ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/P42.pdf"
+    },
+    {
+      "id": "quarantine-act",
+      "shortName": "QUARANTINE ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/Q2.pdf"
+    },
+    {
+      "id": "recovery-of-public-property-special-provisions-act",
+      "shortName": "RECOVERY OF PUBLIC PROPERTY (SPECIAL",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/R4.pdf"
+    },
+    {
+      "id": "regional-centre-for-international-commercial-arbitration-act",
+      "shortName": "REGIONAL CENTRE FOR INTERNATIONAL",
+      "provisions": 20,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=477"
+    },
+    {
+      "id": "remuneration-of-former-presidents-and-heads-of-state-and-other-ancillary-matters",
+      "shortName": "REMUNERATION OF FORMER PRESIDENTS AND",
+      "provisions": 4,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=478"
+    },
+    {
+      "id": "revenue-mobilisation-allocation-and-fiscal-commission-act",
+      "shortName": "REVENUE MOBILISATION, ALLOCATION AND",
+      "provisions": 15,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=479"
+    },
+    {
+      "id": "revolving-loans-fund-for-industry-act",
+      "shortName": "REVOLVING LOANS FUND FOR INDUSTRY ACT",
+      "provisions": 5,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=480"
+    },
+    {
+      "id": "river-niger-transit-act",
+      "shortName": "RIVER NIGER TRANSIT ACT",
+      "provisions": 3,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=482"
+    },
+    {
+      "id": "robbery-and-firearms-special-provisions-act",
+      "shortName": "ROBBERY AND FIREARMS (SPECIAL",
+      "provisions": 9,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=483"
+    },
+    {
+      "id": "river-basins-development-authorities-act",
+      "shortName": "RIVER BASINS DEVELOPMENT AUTHORITIES ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/R9.pdf"
+    },
+    {
+      "id": "rotterdam-convention-on-the-prior-informed-consent-procedure-for-certain-hazardo",
+      "shortName": "ROTTERDAM CONVENTION ON THE PRIOR",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/R12.pdf"
+    },
+    {
+      "id": "savings-bonds-and-certificates-act",
+      "shortName": "SAVINGS BONDS AND CERTIFICATES ACT",
+      "provisions": 0,
+      "status": "no_provisions",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=485"
+    },
+    {
+      "id": "school-year-variation-act",
+      "shortName": "SCHOOL YEAR (VARIATION) ACT",
+      "provisions": 5,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=486"
+    },
+    {
+      "id": "scientiflc-and-industrial-research-act",
+      "shortName": "SCIENTIFlC AND INDUSTRIAL RESEARCH ACT",
+      "provisions": 21,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=487"
+    },
+    {
+      "id": "sheda-science-and-technology-complex-act",
+      "shortName": "SHEDA SCIENCE AND TECHNOLOGY COMPLEX ACT",
+      "provisions": 21,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=489"
+    },
+    {
+      "id": "social-development-act",
+      "shortName": "SOCIAL DEVELOPMENT ACT",
+      "provisions": 5,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=491"
+    },
+    {
+      "id": "sea-fisheries-act",
+      "shortName": "SEA FISHERIES ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/S4.pdf"
+    },
+    {
+      "id": "sheriffs-and-civil-process-act",
+      "shortName": "SHERIFFS AND CIVIL PROCESS ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/S6.pdf"
+    },
+    {
+      "id": "small-and-medium-scale-enterprises-development-agency-of-nigeria-act",
+      "shortName": "SMALL AND MEDIUM SCALE ENTERPRISES",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/S19.pdf"
+    },
+    {
+      "id": "statistics-act",
+      "shortName": "STATISTICS ACT",
+      "provisions": 17,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=494"
+    },
+    {
+      "id": "statutory-corporations-modifications-etc-act",
+      "shortName": "STATUTORY CORPORATIONS (MODIFICATIONS,",
+      "provisions": 3,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=496"
+    },
+    {
+      "id": "statutory-corporations-pensionable-officers-retiring-age-limit-act",
+      "shortName": "STATUTORY CORPORATIONS PENSIONABLE",
+      "provisions": 4,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=497"
+    },
+    {
+      "id": "statutory-corporations-etc-special-provisions-act",
+      "shortName": "STATUTORY CORPORATIONS, ETC. (SPECIAL",
+      "provisions": 5,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=495"
+    },
+    {
+      "id": "students-union-activities-control-and-regulation-act",
+      "shortName": "STUDENTS' UNION ACTIVITIES (CONTROL AND",
+      "provisions": 9,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=498"
+    },
+    {
+      "id": "supreme-court-additional-original-jurisdiction-act",
+      "shortName": "SUPREME COURT (ADDITIONAL ORIGINAL",
+      "provisions": 5,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=500"
+    },
+    {
+      "id": "stamp-duties-act",
+      "shortName": "STAMP DUTIES ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/S8.pdf"
+    },
+    {
+      "id": "standards-organisation-of-nigeria-act",
+      "shortName": "STANDARDS ORGANISATION OF NIGERIA ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/S9.pdf"
+    },
+    {
+      "id": "supreme-court-act",
+      "shortName": "SUPREME COURT ACT",
+      "provisions": 16,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=499"
+    },
+    {
+      "id": "survey-co-ordination-act",
+      "shortName": "SURVEY CO-ORDINATION ACT",
+      "provisions": 3,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=501"
+    },
+    {
+      "id": "taxes-and-levies-approved-list-for-collection-act",
+      "shortName": "TAXES AND LEVIES (APPROVED LIST FOR",
+      "provisions": 3,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=505"
+    },
+    {
+      "id": "teachers-registration-council-of-nigeria-act",
+      "shortName": "TEACHERS REGISTRATION COUNCIL OF",
+      "provisions": 16,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=506"
+    },
+    {
+      "id": "territorial-waters-act",
+      "shortName": "TERRITORIAL WATERS ACT",
+      "provisions": 3,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=507"
+    },
+    {
+      "id": "tobacco-smoking-control-act",
+      "shortName": "TOBACCO SMOKING (CONTROL) ACT",
+      "provisions": 7,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=508"
+    },
+    {
+      "id": "surveyors-registration-council-of-nigeria-act",
+      "shortName": "SURVEYORS REGISTRATION COUNCIL OF",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/S18.pdf"
+    },
+    {
+      "id": "tafawa-balewa-square-management-act",
+      "shortName": "TAFAWA BALEWA SQUARE MANAGEMENT ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/T1.pdf"
+    },
+    {
+      "id": "town-planners-registration-etc-act",
+      "shortName": "TOWN PLANNERS (REGISTRATION, ETC.) ACT",
+      "provisions": 18,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=509"
+    },
+    {
+      "id": "trade-eec-preferences-under-the-lome-convention-act",
+      "shortName": "TRADE (EEC PREFERENCES UNDER THE LOME",
+      "provisions": 7,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=513"
+    },
+    {
+      "id": "trade-disputes-essential-services-act",
+      "shortName": "TRADE DISPUTES (ESSENTIAL SERVICES) ACT",
+      "provisions": 8,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=511"
+    },
+    {
+      "id": "trade-malpractices-miscellaneous-offences-act",
+      "shortName": "TRADE MALPRACTICES (MISCELLANEOUS",
+      "provisions": 6,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=515"
+    },
+    {
+      "id": "trade-generalised-system-of-preferences-act",
+      "shortName": "TRADE (GENERALISED SYSTEM OF",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/T11.pdf"
+    },
+    {
+      "id": "trade-disputes-act",
+      "shortName": "TRADE DISPUTES ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/T8.pdf"
+    },
+    {
+      "id": "trade-marks-act",
+      "shortName": "TRADE MARKS ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/TRADE%20MARKS%20ACT.pdf"
+    },
+    {
+      "id": "trade-unions-international-affiliation-act",
+      "shortName": "TRADE UNIONS (INTERNATIONAL",
+      "provisions": 3,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=517"
+    },
+    {
+      "id": "transferred-officers-and-pensions-liability-etc-act",
+      "shortName": "TRANSFERRED OFFICERS AND PENSIONS",
+      "provisions": 7,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=519"
+    },
+    {
+      "id": "treasury-bills-act",
+      "shortName": "TREASURY BILLS ACT",
+      "provisions": 10,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=520"
+    },
+    {
+      "id": "treasury-certificates-act",
+      "shortName": "TREASURY CERTIFICATES ACT",
+      "provisions": 8,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=521"
+    },
+    {
+      "id": "treaties-making-procedure-etc-act",
+      "shortName": "TREATIES (MAKING PROCEDURE, ETC.) ACT",
+      "provisions": 6,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=522"
+    },
+    {
+      "id": "trade-unions-act",
+      "shortName": "TRADE UNIONS ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/TRADE%20UNIONS%20ACT.pdf"
+    },
+    {
+      "id": "trafficking-in-persons-prohibition-law-enforcement-and-administration-act",
+      "shortName": "TRAFFICKING IN PERSONS (PROHIBITION)",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/T23.pdf"
+    },
+    {
+      "id": "treaty-on-mutual-legal-assitance-in-criminal-matters-between-the-government-of-t",
+      "shortName": "TREATY ON MUTUAL LEGAL ASSITANCE IN",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/T24.pdf"
+    },
+    {
+      "id": "tribunals-of-inquiry-act",
+      "shortName": "TRIBUNALS OF INQUIRY ACT",
+      "provisions": 22,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=523"
+    },
+    {
+      "id": "trustee-investments-act",
+      "shortName": "TRUSTEE INVESTMENTS ACT",
+      "provisions": 3,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=524"
+    },
+    {
+      "id": "united-nations-convention-on-carriage-of-goods-by-sea-ratification-and-enforceme",
+      "shortName": "UNITED NATIONS CONVENTION ON CARRIAGE",
+      "provisions": 5,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=546"
+    },
+    {
+      "id": "university-of-abuja-act",
+      "shortName": "UNIVERSITY OF ABUJA ACT",
+      "provisions": 26,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=530"
+    },
+    {
+      "id": "university-of-benin-transitional-provisions-act",
+      "shortName": "UNIVERSITY OF BENIN (TRANSITIONAL",
+      "provisions": 30,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=532"
+    },
+    {
+      "id": "treaty-to-establish-african-economic-community-relating-to-the-pan-african-parli",
+      "shortName": "TREATY TO ESTABLISH AFRICAN ECONOMIC",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/T25.pdf"
+    },
+    {
+      "id": "treaty-to-establish-the-african-union-ratification-and-enforcement-act",
+      "shortName": "TREATY TO ESTABLISH THE AFRICAN UNION",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/T26.pdf"
+    },
+    {
+      "id": "university-college-hospital-act",
+      "shortName": "UNIVERSITY COLLEGE HOSPITAL ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/U1.pdf"
+    },
+    {
+      "id": "university-of-benin-teaching-hospital-management-board-act",
+      "shortName": "UNIVERSITY OF BENIN TEACHING HOSPITAL",
+      "provisions": 3,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=531"
+    },
+    {
+      "id": "university-of-calabar-act",
+      "shortName": "UNIVERSITY OF CALABAR ACT",
+      "provisions": 26,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=533"
+    },
+    {
+      "id": "university-of-ibadan-act",
+      "shortName": "UNIVERSITY OF IBADAN ACT",
+      "provisions": 19,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=534"
+    },
+    {
+      "id": "university-of-ilorin-act",
+      "shortName": "UNIVERSITY OF ILORIN ACT",
+      "provisions": 24,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=535"
+    },
+    {
+      "id": "university-of-jos-act",
+      "shortName": "UNIVERSITY OF JOS ACT",
+      "provisions": 27,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=536"
+    },
+    {
+      "id": "university-of-maiduguri-act",
+      "shortName": "UNIVERSITY OF MAIDUGURI ACT",
+      "provisions": 26,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=538"
+    },
+    {
+      "id": "university-of-nigeria-act",
+      "shortName": "UNIVERSITY OF NIGERIA ACT",
+      "provisions": 26,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=539"
+    },
+    {
+      "id": "university-of-lagos-act",
+      "shortName": "UNIVERSITY OF LAGOS ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/U9.pdf"
+    },
+    {
+      "id": "university-of-nigeria-teaching-hospital-management-board-act",
+      "shortName": "UNIVERSITY OF NIGERIA TEACHING HOSPITAL",
+      "provisions": 3,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=540"
+    },
+    {
+      "id": "university-of-port-harcourt-act",
+      "shortName": "UNIVERSITY OF PORT HARCOURT ACT",
+      "provisions": 27,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=541"
+    },
+    {
+      "id": "urban-development-bank-of-nigeria-act",
+      "shortName": "URBAN DEVELOPMENT BANK OF NIGERIA ACT",
+      "provisions": 6,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=544"
+    },
+    {
+      "id": "usmanu-dan-fodio-university-sokoto-act",
+      "shortName": "USMANU DAN FODIO UNIVERSITY, SOKOTO ACT",
+      "provisions": 24,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=542"
+    },
+    {
+      "id": "utilities-charges-commission-act",
+      "shortName": "UTILITIES CHARGES COMMISSION ACT",
+      "provisions": 20,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=545"
+    },
+    {
+      "id": "venture-capital-incentives-act",
+      "shortName": "VENTURE CAPITAL (INCENTIVES) ACT",
+      "provisions": 7,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=548"
+    },
+    {
+      "id": "university-teaching-hospitals-reconstitution-of-boards-etc-act",
+      "shortName": "UNIVERSITY TEACHING HOSPITALS",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/U15.pdf"
+    },
+    {
+      "id": "value-added-tax-act-laws",
+      "shortName": "VALUE ADDED TAX ACT LAWS",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/V1.pdf"
+    },
+    {
+      "id": "voice-of-nigeria-corporation-act",
+      "shortName": "VOICE OF NIGERIA CORPORATION ACT",
+      "provisions": 31,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=551"
+    },
+    {
+      "id": "water-resources-act",
+      "shortName": "WATER RESOURCES ACT",
+      "provisions": 17,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=553"
+    },
+    {
+      "id": "west-african-examinations-council-act",
+      "shortName": "WEST AFRICAN EXAMINATIONS COUNCIL ACT",
+      "provisions": 26,
+      "status": "ok",
+      "source": "https://placng.org/lawsofnigeria/view2.php?sn=555"
+    },
+    {
+      "id": "veterinary-surgeons-act",
+      "shortName": "VETERINARY SURGEONS ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/V3.pdf"
+    },
+    {
+      "id": "visiting-forces-act",
+      "shortName": "VISITING FORCES ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/V4.pdf"
+    },
+    {
+      "id": "wages-boards-and-industrial-council-act",
+      "shortName": "WAGES BOARDS AND INDUSTRIAL COUNCIL ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/W1.pdf"
+    },
+    {
+      "id": "weights-and-measures-act",
+      "shortName": "WEIGHTS AND MEASURES ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/W3.pdf"
+    },
+    {
+      "id": "wireless-telegraphy-act",
+      "shortName": "WIRELESS TELEGRAPHY ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/W5.pdf"
+    },
+    {
+      "id": "workmens-compensation-act",
+      "shortName": "WORKMEN'S COMPENSATION ACT",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/W6.pdf"
+    },
+    {
+      "id": "world-meteorological-organisation-protection-act",
+      "shortName": "WORLD METEOROLOGICAL ORGANISATION",
+      "provisions": 0,
+      "status": "metadata_only_pdf",
+      "source": "https://placng.org/lawsofnigeria/laws/WORLD%20METEOROLOGICAL%20ORGANISATION%20(PROTECTION)%20ACT.pdf"
+    },
     {
       "id": "nitda-act-2007",
       "shortName": "NITDA Act",
@@ -24,77 +3815,77 @@
       "id": "evidence-act-2004",
       "shortName": "Evidence Act",
       "provisions": 0,
-      "status": "skipped_pdf",
+      "status": "metadata_only_pdf",
       "source": "https://placng.org/lawsofnigeria/laws/E14.pdf"
     },
     {
       "id": "cama-2004",
       "shortName": "CAMA",
       "provisions": 0,
-      "status": "skipped_pdf",
+      "status": "metadata_only_pdf",
       "source": "https://placng.org/lawsofnigeria/laws/C20.pdf"
     },
     {
       "id": "constitution-1999",
       "shortName": "Constitution 1999",
       "provisions": 0,
-      "status": "skipped_pdf",
+      "status": "metadata_only_pdf",
       "source": "https://placng.org/lawsofnigeria/laws/C23.pdf"
     },
     {
       "id": "ndpa-2023",
       "shortName": "NDPA 2023",
       "provisions": 0,
-      "status": "unavailable",
+      "status": "metadata_only",
       "source": "https://ndpc.gov.ng/Files/Nigeria_Data_Protection_Act_2023.pdf"
     },
     {
       "id": "cybercrimes-act-2015",
       "shortName": "Cybercrimes Act 2015",
       "provisions": 0,
-      "status": "unavailable",
+      "status": "metadata_only",
       "source": "https://www.cert.gov.ng/ngcert/resources/CyberCrime__Prohibition_Prevention_etc__Act__2015.pdf"
     },
     {
       "id": "cama-2020",
       "shortName": "CAMA 2020",
       "provisions": 0,
-      "status": "unavailable",
+      "status": "metadata_only",
       "source": "https://nigerialii.org/akn/ng/act/2020/3/eng%402020-08-07"
     },
     {
       "id": "fccpa-2018",
       "shortName": "FCCPA 2018",
       "provisions": 0,
-      "status": "unavailable",
+      "status": "metadata_only",
       "source": "https://nigerialii.org/akn/ng/act/2018/1/eng%402018-12-01"
     },
     {
       "id": "evidence-act-2011",
       "shortName": "Evidence Act 2011",
       "provisions": 0,
-      "status": "unavailable",
+      "status": "metadata_only",
       "source": "https://nigerialii.org/akn/ng/act/2011/18/eng%402011-06-03"
     },
     {
       "id": "bofia-2020",
       "shortName": "BOFIA 2020",
       "provisions": 0,
-      "status": "unavailable",
+      "status": "metadata_only",
       "source": "https://nigerialii.org/akn/ng/act/2020/5/eng%402020-11-14"
     },
     {
       "id": "foi-act-2011",
       "shortName": "FOI Act 2011",
       "provisions": 0,
-      "status": "unavailable",
+      "status": "metadata_only",
       "source": "https://nigerialii.org/akn/ng/act/2011/4/eng%402011-05-28"
     }
   ],
   "source_status": {
-    "plac_html": "WORKING -- placng.org/lawsofnigeria/view2.php",
+    "plac_html": "WORKING -- placng.org/lawsofnigeria/view2.php (full corpus, ~550 acts)",
     "plac_pdf": "WORKING but not parsed (no PDF library)",
-    "nigerialii": "DOWN -- 0 legislation documents, AKN URLs return 404",
+    "nigerialii": "DOWN -- 0 legislation documents (verified 2026-02-26)",
     "lfrn": "DOWN -- no response from lfrn.gov.ng",
     "ndpc": "PARTIAL -- NDPA 2023 PDF removed (404)",
     "cert": "DOWN -- unreachable"

@@ -1,0 +1,62 @@
+{
+  "id": "tobacco-smoking-control-act",
+  "type": "statute",
+  "title": "TOBACCO SMOKING (CONTROL) ACT",
+  "title_en": "TOBACCO SMOKING (CONTROL) ACT",
+  "short_name": "TOBACCO SMOKING (CONTROL) ACT",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://placng.org/lawsofnigeria/view2.php?sn=508",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "Control of tobacco smoking",
+      "content": "Control of tobacco smoking No person shall, as horn the commencement of this Act, smoke tobacco in the places specified in the First Schedule to this Act. [First Schedule.]"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "Restriction on tobacco smoking advertisement",
+      "content": "Restriction on tobacco smoking advertisement (1) In pursuance of this Act, no person shall advertise tobacco products to the general public in a bid to encourage tobacco smoking through any of the means specified in the Second Schedule to this Act unless the advertisement contains a warning that tobacco smoking is dangerous to health. [Second Schedule.] (2) Pursuant to subsection (1) of this section, no tobacco industry, firm or association of individuals or any other body corporate shall sponsor or pro mole any of their products at any sports event sponsored or promoted by them."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "Tobacco packages to contain certain information",
+      "content": "3. Tobacco packages to contain certain information (1) Except as provided by this Act, no package containing tobacco products meant for smoking shall be sold in Nigeria, unless the following rotating warnings are inscribed on the package, that is- (a) \"The Federal Ministry of Health warns that tobacco smoking is dangerous to health\"; and (b) \"Smokers are liable to die young\". (2) Pursuant to subsection (1) of this section, it shall be unlawful for any person to sell any tobacco product in Nigeria unless the amount of the tar and nicotine contents of each unit of the product is stated on the package."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "Penalties for smoking, etc., in prohibited areas",
+      "content": "4. Penalties for smoking, etc., in prohibited areas Any person who smokes tobacco contrary to the provisions of this Act shall be guilty of an offence under this Act and shall be liable on conviction to a fine of not less than N 200 and not exceeding N 1,000 or to imprisonment to a term of not less than one month and not exceeding two years or to both such fine and imprisonment."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "Penalty for advertising, selling, etc., of tobacco",
+      "content": "5. Penalty for advertising, selling, etc., of tobacco ( 1 ) Any person who advertises, sells or offers for sale any tobacco product otherwise than in compliance with the provisions of this Act shall be guilty of an offence under this Act and shall be liable, on conviction, to a fine of not less than NS,OOO. (2) Where an offence under this Act is committed by a body corporate or firm or other association of individuals- (a) every director, manager, secretary or other similar officer of the body corpo- rate; (b) every partner or officer of the firm; (c) every person concerned in the management of the affairs of the association; or (d) every person who was purporting to act in any such capacity as aforesaid, shall be guilty of an offence and shall be liable on conviction to a fine not exceeding N 5,OOO or to imprisonment for a term not exceeding three years or to both such fine and imprisonment as if he had himself committed the offence, unless he proves that the act or omission constituting the offence took place without his knowledge, consent or conniv- ance."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "Interpretation",
+      "content": "6. Interpretation In this Act, unless the context otherwise requires- \" tobacco\" includes manufactured and unmanufactured tobacco of every description which is processed and used for smoking in pipes, cigars and cigarettes."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "Short",
+      "content": "7. Short title This Act may be cited as the Tobacco Smoking (Control) Act. SCHEDULES FIRST SCHEDULE [Section I.) (a) Cinema, theatre or stadium; (b) Offices; (c) Public transportation; (d) Lifts; (e) Medical establishments; (f) Schools; and (g) Nursery institutions. SECOND SCHEDULE [Section 2 (1 ).] (a) Newspapers; (b) Magazines; (c) Radio; (d) Television; (e) Cinema; (f) Bill boards; and (g) Handbills. SUBSIDIARY LEGISLATION No Subsidiary Legislation"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "tobacco",
+      "definition": "manufactured and unmanufactured tobacco of every description which is processed and used for smoking in pipes, cigars and cigarettes",
+      "source_provision": "s6"
+    }
+  ]
+}

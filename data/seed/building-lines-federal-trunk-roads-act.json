@@ -1,0 +1,49 @@
+{
+  "id": "building-lines-federal-trunk-roads-act",
+  "type": "statute",
+  "title": "BUILDING LINES (FEDERAL TRUNK ROADS) ACT",
+  "title_en": "BUILDING LINES (FEDERAL TRUNK ROADS) ACT",
+  "short_name": "BUILDING LINES (FEDERAL TRUNK ROADS) ACT",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://placng.org/lawsofnigeria/view2.php?sn=56",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "Short title",
+      "content": "1. Short title This Act may be cited as the Building Lines (Federal Trunk Roads) Act."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "Interpretation",
+      "content": "2. Interpretation In this Act- \"Federal trunk road\" means a road which is for the time being declared to be a Federal trunk road for the purposes of item 63 of Part I of the Second Schedule to the Constitution of the Federal Republic of Nigeria 1999; [Cap. C23.] \"Minister\" means the Minister for the time being charged with responsibility for matters relating to Federal trunk roads."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "Application",
+      "content": "3. Application This Act shall apply in respect of any Federal trunk road notwithstanding anything contained in any other Act or law and whether or not the same is within a township, urban district or the area of authority of any local government council."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "Powers of Minister",
+      "content": "4. Powers of Minister In relation to Federal trunk roads- (a) the powers conferred by sections 4 and 6 of the Building Lines Regulation Act upon the Governor of a State shall be vested in the Minister, and references in the Act to an order shall apply to an order made by the Minister under those sections; and [Cap. 28. 1958 Edition.] (b) the reference to the Director of Public Works in section 7 of that Act shall be taken to mean the Permanent Secretary of the Federal Ministry of Works and Housing, and an order under that section shall be communicated in such manner as may seem proper to the Minister. ____________________ BUILDING LINES (FEDERAL TRUNK ROADS) ACT SUBSIDIARY LEGISLATION ____________________ No Subsidiary Legislation"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Federal trunk road",
+      "definition": "a road which is for the time being declared to be a Federal trunk road for the purposes of item 63 of Part I of the Second Schedule to the Constitution of the Federal Republic of Nigeria 1999",
+      "source_provision": "s2"
+    },
+    {
+      "term": "Minister",
+      "definition": "the Minister for the time being charged with responsibility for matters relating to Federal trunk roads",
+      "source_provision": "s2"
+    }
+  ]
+}

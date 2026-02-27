@@ -1,0 +1,43 @@
+{
+  "id": "federal-lands-registry-miscellaneous-provisions-act",
+  "type": "statute",
+  "title": "FEDERAL LANDS REGISTRY (MISCELLANEOUS PROVISIONS) ACT",
+  "title_en": "FEDERAL LANDS REGISTRY (MISCELLANEOUS PROVISIONS) ACT",
+  "short_name": "FEDERAL LANDS REGISTRY (MISCELLANEOUS",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://placng.org/lawsofnigeria/view2.php?sn=173",
+  "provisions": [
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "Power of the Minister to give directives",
+      "content": "10. Power of the Minister to give directives Subject to the provisions of this Act, the Minister may give to the Registry directives of a general character or relating generally to particular matters with regard to the Registry or its functions under this Act and it shall be the duty of the Registry to comply with such directives."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "Interpretation",
+      "content": "11. Interpretation In this Act, unless the context otherwise requires- \"Minister\" means the Minister charged with responsibility for matters relating to works and housing; and \"Ministry\" shall be construed accordingly; \"Registry\" means the Federal Lands Registry established by section 1 of this Act."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "Short title",
+      "content": "12. Short title This Act may be cited as Federal Lands Registry (Miscellaneous Provisions) Act. __________________ FEDERAL LANDS REGISTRY (MISCELLANEOUS PROVISIONS) ACT SUBSIDIARY LEGISLATION ______________________ No Subsidiary Legislation __________________"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Minister",
+      "definition": "the Minister charged with responsibility for matters relating to works and housing",
+      "source_provision": "s11"
+    },
+    {
+      "term": "Registry",
+      "definition": "the Federal Lands Registry established by section 1 of this Act",
+      "source_provision": "s11"
+    }
+  ]
+}

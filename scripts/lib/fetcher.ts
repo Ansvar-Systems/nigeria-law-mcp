@@ -39,7 +39,7 @@ export interface FetchResult {
   body: string;
   contentType: string;
   url: string;
-  source: 'plac_html' | 'plac_pdf' | 'nitda' | 'nigerialii' | 'ndpc' | 'lfrn' | 'direct';
+  source: 'plac_html' | 'plac_pdf' | 'plac_index' | 'nitda' | 'nigerialii' | 'ndpc' | 'lfrn' | 'direct';
 }
 
 /**
@@ -100,6 +100,18 @@ export async function fetchWithRateLimit(
   }
 
   throw new Error(`Failed to fetch ${url} after ${maxRetries} retries`);
+}
+
+/**
+ * Fetch a PLAC index page (paginated list of all acts).
+ * PLAC lists ~8 acts per page across ~69 pages.
+ *
+ * @param page - 1-based page number
+ * @returns FetchResult with HTML body containing the index page
+ */
+export async function fetchPLACIndexPage(page: number): Promise<FetchResult> {
+  const url = `https://placng.org/lawsofnigeria/?page=${page}`;
+  return fetchWithRateLimit(url, 'plac_index');
 }
 
 /**

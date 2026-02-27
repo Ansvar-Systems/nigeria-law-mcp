@@ -1,0 +1,48 @@
+{
+  "id": "taxes-and-levies-approved-list-for-collection-act",
+  "type": "statute",
+  "title": "TAXES AND LEVIES (APPROVED LIST FOR COLLECTION) ACT",
+  "title_en": "TAXES AND LEVIES (APPROVED LIST FOR COLLECTION) ACT",
+  "short_name": "TAXES AND LEVIES (APPROVED LIST FOR",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://placng.org/lawsofnigeria/view2.php?sn=505",
+  "provisions": [
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "Assessment and collection of taxes",
+      "content": "2. Assessment and collection of taxes (1) Notwithstanding anything contained in the Constitution of the Federal Republic of Nigeria 1979, as amended, or in any other enactment or law, no person, other than the appropriate tax authority, shall assess or collect, on behalf of the Government, any tax or levy listed in the Schedule to this Act, and members of the Nigeria Police Force shall only be used in accordance with the provisions of the tax laws. (2) No person, including a tax authority, shall mount a road block in any part of the Federation for the purpose of collecting any tax or levy."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "Offences",
+      "content": "3. Offences A person who- (a) collects or levies any tax or levy; or (b) mounts a road block or causes a road block to be mounted for the purpose of collecting any tax or levy, in contravention of section 2 of this Act, is guilty of an offence and liable on conviction to a fine of N 50,000 or imprisonment for three years or to both such fine and imprison- ment."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "Interpretation",
+      "content": "Interpretation In this Act, unless the context otherwise requires- \"Government\" means the Federal, State or local government; \"Joint Tax Board\" means the Joint Tax Board established under the provisions of Personal Income Tax Act 1993; [1993 No. 104.] \"levy\" includes any fee and charge; \"tax authority\" means- (a) the Federal Board of Inland Revenue, the State Board of Internal Revenue or the Local Government Revenue Committee; or (b) a Ministry, Government department or any other Government body charged with responsibility for assessing or collecting the particular tax. 5. Citation This Act may be cited as the Taxes and Levies (Approved List for Collection) Act. SCHEDULE [Section 1.] PART I Taxes to be collected by the Federal Government 1. Companies income tax. Withholding tax on companies, residents of the Federal Capital Territory, Abuja and non-resident individuals. Petroleum profits tax. Value added tax. Education tax. Capital gains tax on residents of the Federal Capital Territory, Abuja, bodies corporate and non-resident individuals. Stamp duties on bodies corporate and residents of the Federal Capital Territory, Abuja. Personal income tax in respect of- (a) members of the armed forces of the Federation; (b) members or the Nigeria Police Force; (c) Residents of the Federal Capital Territory, Abuja; and (d) staff of the Ministry or Foreign Affairs and non-resident individuals. PART II Taxes and levies to be collected by the State Government 1. Personal income tax in respect of- (a) Pay-As-You-Earn (PAYE); and (b) direct taxation (self-assessment). Withholding tax (individuals only). Capital gains tax (individuals only). Stamp duties on instruments executed by individuals. Pools betting and lotteries, gaming and casino taxes. Road taxes. Business premises registration fee in respect of- (a) urban areas as defined by each State, maximum of---- (i) N 10,000 for registration; and (ii) N 5 ,000 per annum for renewal of registration; and (b) rural areas- (i) N 2 ,000 for registration; and (ii) N 1,000 per annum for renewal of registration. Development levy (individuals only) not more than N 100 per annum on all taxable indi- viduals. Naming of street registration fees in the State Capital. Right of Occupancy fees on lands owned by the State Government in urban areas of the State. Market taxes and levies where State finance is involved. PART III Taxes and levies to be collected by the local government 1. Shops and, kiosks rates. Tenement rates. On and off liquor licence fees. Slaughter slab fees. Marriage, birth and death registration fees. Naming of street registration fee, excluding any street in the State Capital. Right of Occupancy fees on lands in rural areas, excluding those collectable by the Fed- eral and State Governments. Market taxes and levies excluding any market where State finance is involved. Motor park levies. Domestic animal licence fees. Bicycle, truck, canoe, wheelbarrow and cart fees, other than a mechanically propelled truck. Cattle tax payable by cattle farmers only. Meniment and road closure levy. Radio and television licence fees (other than radio and television transmitter). Vehicle radio licence fees (to be imposed by the local government of the State in which the car is registered). Wrong parking charges. Public convenience, sewage and refuse disposal fees. Customary burial ground permit fees. Religious places establishment permit fees. Signboard and advertisement permit fees. SUBSIDIARY LEGISLATION No Subsidiary Legislation"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Government",
+      "definition": "the Federal, State or local government",
+      "source_provision": "s4"
+    },
+    {
+      "term": "Joint Tax Board",
+      "definition": "the Joint Tax Board established under the provisions of Personal Income Tax Act 1993",
+      "source_provision": "s4"
+    },
+    {
+      "term": "levy",
+      "definition": "any fee and charge",
+      "source_provision": "s4"
+    }
+  ]
+}

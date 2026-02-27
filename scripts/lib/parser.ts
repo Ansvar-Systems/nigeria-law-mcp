@@ -413,6 +413,127 @@ function extractDefinitions(
 }
 
 /**
+ * Parse a PLAC index page to extract act entries.
+ *
+ * PLAC index pages list acts as links:
+ * - HTML acts: <a href="view2.php?sn=N">ACT TITLE</a>
+ * - PDF acts: <a href="laws/X.pdf">ACT TITLE</a>
+ *
+ * Returns a list of discovered act entries with source types.
+ */
+export function parsePLACIndexPage(html: string): ActIndexEntry[] {
+  const entries: ActIndexEntry[] = [];
+  const seen = new Set<string>();
+
+  // PLAC uses both single and double quotes in href attributes.
+  // Actual HTML: <a href='view2.php?sn=14' target="_blank">TITLE</a>
+  //          or: <a href='laws/A1.pdf' target="_blank">TITLE</a>
+
+  // Pattern 1: HTML acts -- view2.php?sn=N (single or double quotes)
+  const htmlPattern = /<a\s+href=['"](view2\.php\?sn=(\d+))['"][^>]*>([^<]+)<\/a>/gi;
+  let match: RegExpExecArray | null;
+
+  while ((match = htmlPattern.exec(html)) !== null) {
+    const sn = match[2];
+    const rawTitle = stripHtml(match[3]).trim();
+    if (!rawTitle || rawTitle.length < 3) continue;
+
+    const id = titleToId(rawTitle);
+    if (seen.has(id)) continue;
+    seen.add(id);
+
+    entries.push({
+      id,
+      title: rawTitle,
+      titleEn: rawTitle,
+      shortName: abbreviateTitle(rawTitle),
+      status: 'in_force',
+      issuedDate: '',
+      inForceDate: '',
+      url: `https://placng.org/lawsofnigeria/view2.php?sn=${sn}`,
+      sourceType: 'plac_html',
+      canonicalUrl: `https://placng.org/lawsofnigeria/view2.php?sn=${sn}`,
+    });
+  }
+
+  // Pattern 2: PDF acts -- laws/X.pdf (single or double quotes, may have URL-encoded spaces)
+  const pdfPattern = /<a\s+href=['"]laws\/([^'"]+\.pdf)['"][^>]*>([^<]+)<\/a>/gi;
+
+  while ((match = pdfPattern.exec(html)) !== null) {
+    const pdfFile = match[1];
+    const rawTitle = stripHtml(match[2]).trim();
+    if (!rawTitle || rawTitle.length < 3) continue;
+
+    const id = titleToId(rawTitle);
+    if (seen.has(id)) continue;
+    seen.add(id);
+
+    entries.push({
+      id,
+      title: rawTitle,
+      titleEn: rawTitle,
+      shortName: abbreviateTitle(rawTitle),
+      status: 'in_force',
+      issuedDate: '',
+      inForceDate: '',
+      url: `https://placng.org/lawsofnigeria/laws/${encodeURI(decodeURI(pdfFile))}`,
+      sourceType: 'plac_pdf',
+      canonicalUrl: `https://placng.org/lawsofnigeria/laws/${encodeURI(decodeURI(pdfFile))}`,
+    });
+  }
+
+  return entries;
+}
+
+/**
+ * Detect the total number of index pages from a PLAC index page.
+ * Looks for the "Last" pagination link: ?page=N
+ */
+export function parsePLACTotalPages(html: string): number {
+  // Look for ?page=N in pagination links -- find the highest number
+  const pagePattern = /\?page=(\d+)/g;
+  let match: RegExpExecArray | null;
+  let maxPage = 1;
+
+  while ((match = pagePattern.exec(html)) !== null) {
+    const page = parseInt(match[1], 10);
+    if (page > maxPage) maxPage = page;
+  }
+
+  return maxPage;
+}
+
+/**
+ * Convert an act title to a kebab-case ID.
+ */
+function titleToId(title: string): string {
+  return title
+    .toLowerCase()
+    .replace(/['']/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .substring(0, 80);
+}
+
+/**
+ * Generate a short name from a full act title.
+ * Removes common suffixes like "Act", "Decree", etc. and abbreviates.
+ */
+function abbreviateTitle(title: string): string {
+  // Truncate to a readable short name (max 40 chars)
+  let short = title;
+  if (short.length > 40) {
+    // Try to cut at a word boundary
+    short = short.substring(0, 40);
+    const lastSpace = short.lastIndexOf(' ');
+    if (lastSpace > 20) {
+      short = short.substring(0, lastSpace);
+    }
+  }
+  return short;
+}
+
+/**
  * Pre-configured list of key Nigerian federal acts to ingest.
  *
  * Sources verified 2026-02-19:

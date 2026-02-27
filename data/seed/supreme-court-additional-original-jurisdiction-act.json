@@ -1,0 +1,60 @@
+{
+  "id": "supreme-court-additional-original-jurisdiction-act",
+  "type": "statute",
+  "title": "SUPREME COURT (ADDITIONAL ORIGINAL JURISDICTION) ACT",
+  "title_en": "SUPREME COURT (ADDITIONAL ORIGINAL JURISDICTION) ACT",
+  "short_name": "SUPREME COURT (ADDITIONAL ORIGINAL",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://placng.org/lawsofnigeria/view2.php?sn=500",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "Additional original jurisdiction for the Supreme Court",
+      "content": "Additional original jurisdiction for the Supreme Court (1) In addition to the jurisdiction conferred upon the Supreme Court of Nigeria by section 232 (1) of the 1999 Constitution, the Supreme Court shall, to the exclusion of any other court, have original jurisdiction in any dispute between-- (a) the National Assembly and the President; (b) the National Assembly and any State House of Assembly; and (c) the National Assembly and the State of the Federation, in so far as that dispute involves any question (whether of law or fact) on which the existence or extent of a legal right depends. (2) Nothing in this Act shall be construed as conferring original jurisdiction upon the Supreme Court with respect to any criminal matter."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "Schedule",
+      "content": "2. Schedule The provisions of the Schedule to this Act applies with respect to matters provided therein."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "Amendment of section 20 Cap. 424 L.F.N.",
+      "content": "3. Amendment of section 20 Cap. 424 L.F.N. Section 20 of the Supreme Court Act is amended to the extend that in any such suit by or against- (a) the National Assembly; or (b) a State House of Assembly, the nominal party in the case of- (i) National Assembly is the National Assembly; (ii) a State House of Assembly is the Speaker of the State House of Assembly, as stated in this Act."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "Interpretation",
+      "content": "4. Interpretation In this Act- \" Constitution\" means the Constitution of the Federal Republic of Nigeria 1999; \"National Assembly\" means the Senate and House of Representatives established by the Constitution; \"President\" means the President of the Federal Republic of Nigeria established by the Constitution."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "Citation",
+      "content": "5. Citation This Act may be cited as the Supreme Court (Additional Original Jurisdiction) Act, 2002. SCHEDULE (Section 2.] 1 . Neither the National Assembly nor State House of Assembly shall institute or initiate legal proceedings under this Act except upon the resolution of the House passed by a simple majority of the members of that House present and sitting at the time the resolution is put to vote. 2. No legal proceedings shall be initiated or instituted by or on behalf of the National Assembly under the Act except upon the resolution which has been passed by both Houses of National Assembly by a simple majority of the members of each House present and sitting at the time the resolution is put to vote. SUBSIDIARY LEGISLATION No Subsidiary Legislation"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Constitution",
+      "definition": "the Constitution of the Federal Republic of Nigeria 1999",
+      "source_provision": "s4"
+    },
+    {
+      "term": "National Assembly",
+      "definition": "the Senate and House of Representatives established by the Constitution",
+      "source_provision": "s4"
+    },
+    {
+      "term": "President",
+      "definition": "the President of the Federal Republic of Nigeria established by the Constitution",
+      "source_provision": "s4"
+    }
+  ]
+}

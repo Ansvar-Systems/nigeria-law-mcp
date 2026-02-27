@@ -1,0 +1,43 @@
+{
+  "id": "river-niger-transit-act",
+  "type": "statute",
+  "title": "RIVER NIGER TRANSIT ACT",
+  "title_en": "RIVER NIGER TRANSIT ACT",
+  "short_name": "RIVER NIGER TRANSIT ACT",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://placng.org/lawsofnigeria/view2.php?sn=482",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "Right of vessels and goods to pass through Nigeria in transit",
+      "content": "Right of vessels and goods to pass through Nigeria in transit via the River Niger Vessels and goods may pass in transit between the sea and places beyond Nigeria via the River Niger or, in the case of goods, partly via the River Niger and partly by land, subject to such regulations as may for the time being be in force under this Act. Power to make regulations The Minister may make regulations prescribing the conditions under which vessels and goods may pass in transit between the sea and places beyond Nigeria via the River Niger or, in the case of goods, partly via the River Niger and partly by land, and may impose a penalty not exceeding a fine of four hundred naira or imprisonment for a term of six months or both for any breach of such regulations."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "Interpretation",
+      "content": "Interpretation In this Act, unless the context otherwise requires- \"Minister\" means the Minister charged with responsibility for Transport; \"River Niger\" includes the River Niger and all its effluents, branches and outlets within Nigeria."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "Short title",
+      "content": "Short title This Act may be cited as the River Niger Transit Act. SUBSIDIARY LEGISLATION No Subsidiary Legislation"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Minister",
+      "definition": "the Minister charged with responsibility for Transport",
+      "source_provision": "s3"
+    },
+    {
+      "term": "River Niger",
+      "definition": "the River Niger and all its effluents, branches and outlets within Nigeria",
+      "source_provision": "s3"
+    }
+  ]
+}

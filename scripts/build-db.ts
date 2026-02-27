@@ -331,7 +331,7 @@ function buildDatabase(): void {
   `);
 
   const insertDefinition = db.prepare(`
-    INSERT INTO definitions (document_id, term, term_en, definition, source_provision)
+    INSERT OR IGNORE INTO definitions (document_id, term, term_en, definition, source_provision)
     VALUES (?, ?, ?, ?, ?)
   `);
 
